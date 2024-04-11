@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa91dad451f4de418f9d5cd3eeb267d, type: 3}
+  m_Name: QuizLesson1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: Ano ang tawag sa parte ng daigdig na may matigas at mabatong bahagi?
+    questionImage: {fileID: 0}
+    options:
+    - Core
+    - Mantle
+    - Crust
+    - Outer Core
+    correctAnswer: Core
+    questionType: 0
+  - questionText: Ito ay ang sukat ng layo ng isang lugar pasilangan o pakanluran
+      ng Prime Meridian
+    questionImage: {fileID: 0}
+    options:
+    - Latitude
+    - Inner Core
+    - Longitude
+    - Crust
+    correctAnswer: Longitude
+    questionType: 0
+  - questionText: Ito ay itinuturing bilang kaluluwa ng Kultura
+    questionImage: {fileID: 0}
+    options:
+    - Wika
+    - Lahit
+    - Pangkat-Etniko
+    - Relihiyon
+    correctAnswer: Wika
+    questionType: 0
+  - questionText: "Ito ang pag-aaral tungkol sa wika, relihiyon, lahi, at pangkat-etniko
+      sa iba\u2019t ibang bahagi ng daigdig."
+    questionImage: {fileID: 0}
+    options:
+    - Heograpiyang Pisikal
+    - Heograpiyang Pantao
+    - Heograpiya
+    - Heograpiyang Pangdaigdig
+    correctAnswer: Heograpiyang Pantao
+    questionType: 0
+  - questionText: Ano ang tawag sa isa sa pitong kontinente ng mundo na may malaking
+      sakop ng lupain at karagatan?
+    questionImage: {fileID: 0}
+    options:
+    - Asya
+    - Africa
+    - Europe
+    - Antartica
+    correctAnswer: Asya
+    questionType: 0
+  - questionText: Alin sa mga sumusunod ang HINDI kabilang sa pamilya ng wika?
+    questionImage: {fileID: 0}
+    options:
+    - Afro-Asiatic
+    - Niger-Congo
+    - Indo-European
+    - Austria-Indian
+    correctAnswer: Austria-Indian
+    questionType: 0
+  - questionText: Ilan ang buhay na wika sa mundo?
+    questionImage: {fileID: 0}
+    options:
+    - 7,520
+    - 20
+    - 7,105
+    - 25
+    correctAnswer: 7,105
+    questionType: 0
+  - questionText: "\_Ito ay katangian ng wika na hindi mahahanap sa ibang wika."
+    questionImage: {fileID: 0}
+    options:
+    - May sariling kakayanan
+    - Laugnay ng Wika
+    - Dinamiko
+    - Nagbabago
+    correctAnswer: May sariling kakayanan
+    questionType: 0
+  - questionText: Ito ay katangian ng wika na nagbabago kasabay ng pagbabago ng panahon
+      at pandaigdigan na pagbabago
+    questionImage: {fileID: 0}
+    options:
+    - Nagbabago
+    - Dinamiko
+    - Simatiko
+    - Hindi Nagbabago
+    correctAnswer: Dinamiko
+    questionType: 0
+  - questionText: Ano ang tawag sa pag-aaral ng mga lugar, relasyon ng tao sa mundo
+      at ang mga impormasyon na may kinalaman sa daigdig?
+    questionImage: {fileID: 0}
+    options:
+    - Heograpiya
+    - Kasaysayan
+    - World History
+    - Antropolohiya
+    correctAnswer: Heograpiya
+    questionType: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb8a1e8e213ffe4abbd2afa14f2177b, type: 3}
+  m_Name: Dinamiko
+  m_EditorClassIdentifier: 
+  lessons:
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 045f6ba37a1865e4a9d82e1b9d6d540a, type: 3}
+      lessonType: 1
+    - lessonText: Ang wika ay nagbabago ito ay kasabay ng pagbabago ng panahon at
+        pandaigdigang  pagbabago.
+      lessonImage: {fileID: 0}
+      lessonType: 0

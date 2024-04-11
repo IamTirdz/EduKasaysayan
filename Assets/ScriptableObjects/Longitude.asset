@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb8a1e8e213ffe4abbd2afa14f2177b, type: 3}
+  m_Name: Longitude
+  m_EditorClassIdentifier: 
+  lessons:
+  - lessonTitle: Longitude
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: Ito ay ang sukat ng layo ng isang lugar pasilangan o pakanluran
+        ng Prime Meridian
+      lessonImage: {fileID: 0}
+      lessonType: 0
+  - lessonTitle: Longitude
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: Ito ay ang mga patayong guhit na pumapaikot sa globo
+      lessonImage: {fileID: 0}
+      lessonType: 0
+  - lessonTitle: Longitude
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: "Ito din ay ginagamit na batayan sa pagtukoy ng oras sa iba\u2019t-ibang
+        paning ng mundo"
+      lessonImage: {fileID: 0}
+      lessonType: 0
+  - lessonTitle: Longitude
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: TANDAAN na bawat 15-degree longitude ay katumbas ng isang oras
+      lessonImage: {fileID: 0}
+      lessonType: 0

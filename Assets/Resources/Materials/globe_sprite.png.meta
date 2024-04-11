@@ -1,0 +1,6775 @@
+fileFormatVersion: 2
+guid: 927a1ce05e7bf9a49b808dc6fbd19389
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: globe_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff75e52b4cbf35e469a9219d333a8d23
+      internalID: -612829942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2429eea292fe64e9713d7aa5fac7bd
+      internalID: -1168129036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cc1bfabadfa454e8af4c5b248e2757
+      internalID: 1211996764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e181e94d521b40a99e97edff81767
+      internalID: 1418997710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1af15732312da4d80417ad312bc68c
+      internalID: -1171259313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41ccb0550360b1408f6ace258235440
+      internalID: 1588609860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 13314
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f0a766d9ad7c340abae57a020919cd
+      internalID: -1108069789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a12ba8f4b69e94eacbafd3745142e6
+      internalID: -1598696709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544731f0c19a7b7438a4f7157402686f
+      internalID: -817549963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde2ba214fa0df34791b32a10c98d494
+      internalID: -1535860676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fc3555ac4eec848a2a4de82f21075d
+      internalID: 272009281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d0bb1db0df9924bb59e47977ea78cf
+      internalID: 1936800949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bc8a42f255ac0448ebdbf305f9abe3
+      internalID: -1235881753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 12997
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba1aaffcb202d244ac5232dc562926c
+      internalID: -1941856626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc791810b21b274a800e47f63592e8b
+      internalID: 287612935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656418125aa12e94eb835f6a2ebe1e34
+      internalID: 688966127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629ab887a9ea1824aac214fe1c4460ff
+      internalID: 1283444791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1997b568df3e0024b884cd7410e14766
+      internalID: 1164243886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7863ef01070ed24bbd276b66a44172a
+      internalID: 95533121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c643638e9ca7f45a2215b10a12af68
+      internalID: 1540652829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 12680
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342c2c61169a8c41ab0700237452509
+      internalID: -209637995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939b865db0e851845b5df5a337c032d9
+      internalID: -1237600716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_22
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec24f664f0cfff44862e3cfa445f56f
+      internalID: -923033633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_23
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e79cd4477e44d4381e6efc3b04abf7
+      internalID: -1489716404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_24
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c9e4aa064e7d34facbdb07d1118e9e
+      internalID: 1196874518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_25
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec21686290b4cc4a870b1da932c389e
+      internalID: 1295189606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_26
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3591e4cd022e242bcf796db491f48e
+      internalID: -1590220937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 12363
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe79e187118f654ebf59fe894ff8012
+      internalID: -1831232824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3e18597d7f062428c11399a482dbc1
+      internalID: 2033241069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca4ffd3f0cec02459d6e0ca1bde8964
+      internalID: 2144616940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_30
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1327f483c72a05c439802bf88b5f1d2d
+      internalID: -1202019906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_31
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32046a42317445e4f9508e2ab17f5c1f
+      internalID: -1852149116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335ee3cacfda5bd4ca07a4fccaa96a5b
+      internalID: 1098671563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ab8068580821046a8d64af11512f24
+      internalID: -1839909106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_34
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 12046
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195641eaace06c74ca1aabd96eee722a
+      internalID: 571460413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fc0ecd28295594f89b4f8780d62e2e
+      internalID: -299302236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_36
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de21e1ed6806d53439b54adc8732c71e
+      internalID: -965501208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_37
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f562dfbaeef264abb7bf20bafd3f4c
+      internalID: 478697359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_38
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666495e13fe02e54f9b4a2a40364aae5
+      internalID: -471654434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_39
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887dc60ebee586c418b92edaf1605f46
+      internalID: 1122176241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec65bbf3df84d3448cd029d9703fe1d
+      internalID: -241818952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_41
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 11729
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d289b19b57864bbbc723ba8340114
+      internalID: -499496034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54161f7a5fd4cc4448ce997949121df4
+      internalID: -573949964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_43
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b529099513ba225448a374dde8b00430
+      internalID: -1195511516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_44
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bd7aa895350dd47acb42121f382b7e
+      internalID: 245927716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_45
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc5075f18dc3804cabf9019f02bb174
+      internalID: 2105703048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_46
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc32ee3336ff8e49a80abc6faf8d862
+      internalID: 1252015128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_47
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6608b4ecc5daba34b9716fe71bc2b388
+      internalID: 1765450028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_48
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 11412
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7fcc18b00cfce4293d06fae01ffcee
+      internalID: 1037291350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59318b5e730326443b5437fe4e82986c
+      internalID: 992578013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_50
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710be88f38f76c4d9b2788dda9967da
+      internalID: -144288195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_51
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb6add1b313f1b45b82565f992b7bcf
+      internalID: 1138529246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_52
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5899b9f4745df5a418544060a269bd6e
+      internalID: -828441303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_53
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624be16b0d3b82f4282afd56e85e7ffd
+      internalID: -685791014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_54
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9453f129479cba549a350d23119ecd00
+      internalID: 1770025477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_55
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 11095
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67386f5e60158da4d82ecd20df9a3944
+      internalID: 1377906540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082f84e4f41057047a57cc0263e1fb92
+      internalID: 1353872226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_57
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aabb249a98a0ed49bd901398c917392
+      internalID: 1918605453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_58
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ca037e3dd73f449e3b47cedcd18d9
+      internalID: 1979951433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_59
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd8f7c3ae26a7f4d8804da90073eb99
+      internalID: -1173626680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_60
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b075c0e0f73ee5a4ab8b83cc34829a65
+      internalID: 1334251457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_61
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4876602bbb2dbc540a1158ef0cce7e5a
+      internalID: -921212473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_62
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 10778
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343f8543a218ad46bf1f141084a39d7
+      internalID: -1812377297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759491a4917ab1d4384b5b29e7f35f0f
+      internalID: -2109923893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_64
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59d1d05f02153f44b4b351c6b808875
+      internalID: 1666722399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_65
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c1b5c607012024580e4351a3b35525
+      internalID: 13619965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_66
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60b4ec645e508b4e9c65e872d642363
+      internalID: -270385844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_67
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f2b021327cb4b4fb730d8a37792f70
+      internalID: 1856660866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_68
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f233449f8d6e1f418866a68c4e6c71c
+      internalID: -1091777525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_69
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 10461
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ac22bd6ef22e489d02ad6b5d4fa8c
+      internalID: -1693154666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d35ff4b1d44a34887c6f6b8cdc0f7a
+      internalID: -594377362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_71
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2651c529a29bd5948b1e3d3f59131abf
+      internalID: -808053347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_72
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba295700fc041564a9b0fdd6987f657b
+      internalID: -1503273157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_73
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a49a35ede08b48a3a4c2d7b9c2a44
+      internalID: 1509912438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_74
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c334b71eb3be438ad5236000ddcfa
+      internalID: 942262522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_75
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8572561fdc2354694b50bac1d1968c
+      internalID: -76393184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_76
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 10144
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fec4fcb8ed9b9b4bb40ca41778f5247
+      internalID: -727332591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f2bcfa0a003a4ab63650e12437dd2
+      internalID: -1271872396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_78
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a36d017848205b49a6da1f3ce855ca8
+      internalID: -82849033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_79
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2196503a7c865b54aa936648cf449190
+      internalID: 1535822203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_80
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd54c321d6506dc41933cf3632f8db8f
+      internalID: -1747969649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_81
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df189f4bcb54faa4590419c45b8915ec
+      internalID: -781044079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_82
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764655f7e56ec2844ae6cdf54825a9ff
+      internalID: -1546964283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_83
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 9827
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4953ec2e00e134fbf0a5b8721cc303
+      internalID: 1307177297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77dd1481bd600b47a2319a54f62ade1
+      internalID: -1201061975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_85
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d3460544258604889619f710e11809
+      internalID: 1488999442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_86
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce633f418ab40d54185577dabb7d820c
+      internalID: -1403212998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_87
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6006107e97cde4f91c9f0b9d4d6b51
+      internalID: 1194881923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_88
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0087bd67c8eadc543890db214ebae1da
+      internalID: -151529609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_89
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0ddd8fc68b37e4e8d29c65a8c03e9b
+      internalID: -1936968405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_90
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 9510
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958a979b422e2cc4585de7d8a8da55ed
+      internalID: 1168174850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3461a154aad2e48a7665fba348d219
+      internalID: 1866925337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_92
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d1e6ef3cc584540ad8387805214c2b
+      internalID: 2103410392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_93
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae48bd692de6b94ab7b18498ae4ee3f
+      internalID: -189305068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_94
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e67c789679183f4c9eeda59e4861b9d
+      internalID: 152979903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_95
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344f9fbb1efa1dd48b9fc4a1a21c9ee1
+      internalID: -1728720812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_96
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e9c257671976249b02a9394df655e9
+      internalID: 595537848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_97
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 9193
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ee9831ee18c2ca4abd87434ae1342e0
+      internalID: 2111975449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fbe3b95e6943e4ea5f2cb336b0e1a5
+      internalID: 1075008194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_99
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a38bc4f37c63946bb37a7ae4baabdb
+      internalID: 2045287029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_100
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c9a84ab1c24042b550603d5c5e251
+      internalID: -508593422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_101
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebba6e99be8512142bb0bcd37d4a24c1
+      internalID: 1278617160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_102
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508cc9c659a6b8849b4612f067e75aee
+      internalID: -541999825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_103
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9f19149aa28dc4bb56216b72e61d27
+      internalID: -1143873995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_104
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 8876
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67406be16a6d2ed4499a4993e6d69e32
+      internalID: 156920722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf0c80ab39aaea40b847db33d49e318
+      internalID: 323873783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_106
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c35001ca2f4f4ca297680cf128597
+      internalID: -1907063137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_107
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f30227894352448858290b0002b68
+      internalID: -1408243780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_108
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b990d3acf63f46ae9769ab9e1c50f
+      internalID: -1639631213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_109
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b910b5bdd7a481949b336637873ac192
+      internalID: 2126332895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_110
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03491618c0fd844a98cfc50a030c977
+      internalID: -1416525748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_111
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 8559
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc448b82221fc514bb8a1f61220541f1
+      internalID: -1501036632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3397f5027b45747a65e1af8839fb73
+      internalID: -72293035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_113
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de210392cd515794487ff925796bf181
+      internalID: 1392360774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_114
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bbed35296b6b954f967627feedb653b
+      internalID: 562370133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_115
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4284a00dea9c72140b0bdca5fcb6ad89
+      internalID: -27929771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_116
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee874fc7ae0835243b093616f16e05f7
+      internalID: 1074124268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_117
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29dfa145037f6341ac9c5766831893e
+      internalID: 1747523224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_118
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 8242
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6c8b1a09b204d4d86a0daa88848285
+      internalID: 195272576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4462991a8fb68b44db427fd912822e93
+      internalID: 400846476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_120
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aab35be2cfac64abe392f78b1d47af
+      internalID: 94606762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_121
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a449ac63736ec4d82c2b3b672650db
+      internalID: -762577015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_122
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae57aed546c6f7846a1c7cdb20c7814f
+      internalID: -775570358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_123
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adf4a2cb37b9734aa11bc78fa1ea5d9
+      internalID: -1103044396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_124
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe623350cec94654da750b419392186e
+      internalID: 1234537839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_125
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 7925
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524a0c0c895fb8a449fa6d1971ae733c
+      internalID: -1569543830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b06637e5bac47429d164085bc582ba
+      internalID: -102055100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_127
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0ec55778382f645ab2098239af4480
+      internalID: -358059505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_128
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7391c4e88dfed4eb2b4138d37c06f5
+      internalID: 772179779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_129
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63549daf99a308143ab6afffa370b5ac
+      internalID: -1860487998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_130
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0758a18c66d78e4880ea9cd4a34c47b
+      internalID: 1413138428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_131
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6feb67ae9fc644b8a389145ca2b532
+      internalID: -1269067820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_132
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 7608
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fcc600344ed1f479a7178a30b556b0
+      internalID: 1918909732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e582dd6cdcfb7884186d2d790d01cf13
+      internalID: -1931189786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_134
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eeac1280305f7e44baac78226efd934
+      internalID: 1799035702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_135
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a417cace29006de4f8af435b30c6e4fa
+      internalID: -286770288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_136
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0b18afb9bf954e8389e8f15374f6d
+      internalID: -858169134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_137
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8ba30841df82a4eb90bcccf432f293
+      internalID: 966975328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_138
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fc5e2392d2995459d3aeaaa7631d4a
+      internalID: 1295418330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_139
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 7291
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4314c05b4c88ee44a541b8df2bde6ac
+      internalID: 538329139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedb8e47a510a64ca0cc93c92c9cbfa
+      internalID: 1233261306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_141
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2054c90cb65239240bab601f2a051a9c
+      internalID: -647145461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_142
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc84a68dc66fe64fa8cce467ca5cc06
+      internalID: -765290627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_143
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd4adf256ca4af458c7801cd67b11ce
+      internalID: -595934363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_144
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76c3777cd6e97e4b90393955554bf54
+      internalID: -1139473721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_145
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3186b6b2dfca15c499fd15633d24c9c9
+      internalID: 2027648652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_146
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 6974
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d9eac51f01cf4792bef582dcdac3b
+      internalID: 462499340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fe5e142b8c02245bf4633eab458ffa
+      internalID: -645834223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_148
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c274617c419d8a84e8d0541f74375c23
+      internalID: 1714040713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_149
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033c4c6585243b649a16570a02d1ca68
+      internalID: 123191437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_150
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52b8ccb5d114504caf329405a15aa87
+      internalID: -1202906957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_151
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d213d50f2fec4ac4aace482269f05e4c
+      internalID: 1349428935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_152
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f2e75fa7e8d02479fa9b77fb8bf8ad
+      internalID: -618237024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_153
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 6657
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae699bb410f584b9a226479f7194d9
+      internalID: 916933382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6100a572013388f41a027f5982c98194
+      internalID: 1371984259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_155
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300127753fecaa941bf5d296e1238fe3
+      internalID: 130693359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_156
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0f0d692f2b7f24fb3bd774836f076e
+      internalID: 952098180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_157
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd03fd35311faa744a9914ae47f17b56
+      internalID: -2043883476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_158
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d1117fa69b547498b475cb84131eef
+      internalID: -1748190151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_159
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214f1bb98267364d863ef41eac1b1bd
+      internalID: -560856426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_160
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 6340
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6758df2852044449a63a090887580c
+      internalID: -782299400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5e3f1d13e87a141a762bb8e7d479ea
+      internalID: 64588804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_162
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8582667a9ac14ab2ab34fb3b5225f
+      internalID: -1265511645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_163
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3902af0b7e7ce1147904373b32b597d1
+      internalID: -1493331656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_164
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba1312368ca0d42977d9d432f8e848
+      internalID: 3970957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_165
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7e76c336c260144af5f9e7f3e9e9c4
+      internalID: -164116113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_166
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def3493813346a647b1d6394bbac3b7b
+      internalID: -1576314088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_167
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 6023
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18894dd99108084088d7e9bd47f0645
+      internalID: 71845847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70562ffad6f2c44d864c65a3fb4b891
+      internalID: -288807292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_169
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ea05d9afcce7c42a22bea248b8ab0c
+      internalID: 262533125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_170
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d37ee9fe3e05844b8c3b2086db3e78
+      internalID: 1429804362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_171
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161ace5695ab76a42bfb15bc9850baf9
+      internalID: -2126225001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_172
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1f7292312e1054faa331af152532d3
+      internalID: 1692784008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_173
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f8237530b59c1468f355db94d85bfe
+      internalID: 1809649982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_174
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 5706
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1d0b38e62d5d144b76e290d6da50d1
+      internalID: 1447941197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637a1168a2084e44388d966496a9ac6a
+      internalID: -1567708238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_176
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30b1cd46b00bd4cb8d0c6b734b8e88
+      internalID: 1243889359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_177
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e23bbbd0b8c3e41852e89b5f675242
+      internalID: -1441952104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_178
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e408a2a991fb442acef5f162f7ea86
+      internalID: 586443751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_179
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d932d6b99a7b7a944bdd64a0ef936ba0
+      internalID: -1462383574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_180
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5946854c8bc564eb95c4d85a8384e1
+      internalID: 2057287640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_181
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 5389
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434dc3a5915d0a540bade7f81c3a580e
+      internalID: -1492570668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17901d74f77fc2a4aa60410c9c47bd77
+      internalID: 1812473849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_183
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e718499251b964ba4b9b7e78257f19
+      internalID: -1806740795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_184
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d27b06b89afcd04c868f7efffc9428e
+      internalID: 1023671574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_185
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398f59e3ba3d9f041b75e3c235ab46af
+      internalID: -742243414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_186
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b975838e3b0fbc74999c33dcc8627125
+      internalID: -2069968083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_187
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af15ae299f5c2454a852667de2b186df
+      internalID: -1341769041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_188
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 5072
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b33bf324ad14e4d84d49a56f076561
+      internalID: 1733792427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a37231a313d0a4ab15840b54afc1d5
+      internalID: 1393645938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_190
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba2ccc1e2fd82b4d81fac61dfe64a6c
+      internalID: -518928188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_191
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207e1189cada3774b89dc3df47d50e0a
+      internalID: 309075397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_192
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61658883b5320c741a90b1854fadc34c
+      internalID: -374755884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_193
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121b02262c5282149a327c4d708e7580
+      internalID: -158939259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_194
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732cca439dc524408697bf14568c343
+      internalID: -222714789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_195
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 4755
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d4ae2d11d4b7342908585e258f5ad6
+      internalID: 74493729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5507390fd739dec45ad2ebc68e250f59
+      internalID: 1911444269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_197
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca462eb5b10373448b36d56df8eb3ea8
+      internalID: -1618978712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_198
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a0d96e7b214be469e921ecd35649a3
+      internalID: 498086308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_199
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918b4bc5d68ecf7489f7f9b0d1b9bc70
+      internalID: -2063316275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_200
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c59fa393ec0f814c89775ef6a073669
+      internalID: 403764002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_201
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e2e145b5fac6b41aa8aae54ab93696
+      internalID: 1170420262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_202
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 4438
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8418298e904d584cbfb60ef2f33ea2d
+      internalID: 977427379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dc6a3220d408744b74d5f12dc77267
+      internalID: 1630008804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_204
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b1bb33a518e3b408f9f62a43b9f015
+      internalID: 2117013387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_205
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d7eac73e63f134fa715be96d09dcf2
+      internalID: -7029585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_206
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0531c8f1cd585b14792d7543c9452fb7
+      internalID: -1855826349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_207
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ef159a9d9440458a0d9a09302532c
+      internalID: 885067181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_208
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bbbb139499f6043a76c4a246056e74
+      internalID: -381526816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_209
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 4121
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb35a80f7f593849a33509c534c50bb
+      internalID: 1076148857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b0caa8898143e40b8b4d27b89488d7
+      internalID: 536396811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_211
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ac288d5a622584997ee6d19069ba0a
+      internalID: 1174570087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_212
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a7ab24525efb84ca61ba6c707058ff
+      internalID: -1079971849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_213
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfe128fb9ab0d446bef98234468604a
+      internalID: 653896553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_214
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a83118e14838479ce11aacdc2fa8d
+      internalID: 1221350438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_215
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163d49b15255be34b86a9754a05bae7e
+      internalID: -1705773491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_216
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 3804
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121a4071a10c64b40b53d8278f458e40
+      internalID: -157543993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8e72f222c2d7c48954e729b916ef35
+      internalID: 687265150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_218
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc86100d47478d34abf1c8bc0c967a18
+      internalID: 48851005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_219
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac92d24e7fe754447b401070566f712c
+      internalID: -207465685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_220
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee36d5600aa0ef48895b75a32c5ee4d
+      internalID: -1357210100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_221
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aa510036a59f147b4acf8275c1c1be
+      internalID: -1618990573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_222
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7bbabbc1db321469f2301f6e43938f
+      internalID: -1093232998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_223
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 3487
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d059a51f9887baa498d5071f32fe5878
+      internalID: 1735552310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cb849d6350f7847babae739a4c3402
+      internalID: 1838718469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_225
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf62433eb1923448b53d81c983c174a
+      internalID: -1115115710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_226
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854b7e8e05c5a424493ecd39e420c5d6
+      internalID: 1473747106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_227
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72999aab5d765ea42831be2aba3b7395
+      internalID: -127682065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_228
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68aea05b20c4f784db25f7a99af694b0
+      internalID: -1088907196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_229
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3306a9421d9e7954a96c3061a57cd055
+      internalID: 612403166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_230
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 3170
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f4b3b3a92cd754a984f1a0bea8ccab
+      internalID: -1262336739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9579841fbe08349936dfad0cf04a5e
+      internalID: -1052506491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_232
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe5aeb76adc3e3438cbf684caf26ee3
+      internalID: 518677446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_233
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c38522a609f7b4588806a66d8f777e
+      internalID: -1171476967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_234
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba061475349844f946131f15d43340
+      internalID: -191882001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_235
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb621d069f21a0499346090a83da2f4
+      internalID: -2084601880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_236
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc361f6f80b37c4aaa9286f14707ca8
+      internalID: 660788981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_237
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2853
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a4d6dd1bb6de642943b39beb1d9b70
+      internalID: -608082933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4850fc5e8c382f841a15881a948dc507
+      internalID: -1501023552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_239
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d03ca1642eee547add2a4e1ecb186b
+      internalID: 2107067536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_240
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2acc7e0d7735b14aa5de6dd127fc5ee
+      internalID: -602819430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_241
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44e8c5de4e28914c926e0b8ee3a21a1
+      internalID: -1218165990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_242
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbf8a38c9a0fee4bae4aae5c118f0dc
+      internalID: 1853107649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_243
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f653a71177c43a449a9c745a8060fff5
+      internalID: -952759423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_244
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2536
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c3c25f20278b0409a3d696ed77a3a4
+      internalID: 1096351610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b70604081951b4e9ed641b49437cfd
+      internalID: 612469473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_246
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82d69f9df891c47b5e7a87adf72aec
+      internalID: -949923961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_247
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7cbc38f0cd6fc42b9c7e0e736f6569
+      internalID: 921204783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_248
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24927d67e627f414eaef3282a21fdcc4
+      internalID: 2046066600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_249
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9b255c4608b424e9837cc4ba9fb1a6
+      internalID: -69463031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_250
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785bef9f686f2214b858d1dc705c5272
+      internalID: -195410547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_251
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 2219
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3ab9a9b1b3ba84bb3fca2d2cd1432c
+      internalID: -939804154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d036683e5a488644f9adca7939c7e818
+      internalID: 514454964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_253
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a8e504d04491741a8e95fb19c8451c
+      internalID: 407793678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_254
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60dfd71d06955b4e99546a7cd92346b
+      internalID: -1353173615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_255
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787a2f58c38e57048b309b552440b240
+      internalID: -1612074779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_256
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeb1f1fd0b9aa34e8783ca812cc0d3e
+      internalID: 2025384223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_257
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8aec73006143914cab9cec56439deb9
+      internalID: 467430668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_258
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1902
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4b41ec1c4d8c4199625b249430137
+      internalID: -1675097995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee9ff986bdbd5841b4a2349d1a9275a
+      internalID: -1105194734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_260
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3816c193fa9f83c43aa20ebb231abd58
+      internalID: -814087043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_261
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e97c15d2c65fa4499254e183b6056ad
+      internalID: -311350143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_262
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c67273d307c441b520c33abb41956
+      internalID: 748482673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_263
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c786cc425d00540876a22bbc74d09b
+      internalID: 2044327464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_264
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bc948fa0e3ee148980506718378d5d
+      internalID: -496069531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_265
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1585
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c3c86466f74a64294b52082eda3d83
+      internalID: -200925602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_266
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad18dd93469e6b74ab77762b54ef84bb
+      internalID: -1340576207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_267
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b8ba74f96c4804faa868e2c75c12d1
+      internalID: 396743907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_268
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83ed4ea9d96044a80448e1a3b6d7c5
+      internalID: -12732201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_269
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f163e4d43e9144895c6cd71e98ca21
+      internalID: 121263268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_270
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7872dd172909de44293f6e1c7ba64e65
+      internalID: 1710417612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_271
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25843156bc97f1e46b0faffd6aa49b6c
+      internalID: 500858297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_272
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1268
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0bf1d4765e163429c5083d6f375f56
+      internalID: 1187437210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd15705ea463948b5611f007d08308
+      internalID: 596609351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_274
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cea98bba34ee341ba6bf26273aa062
+      internalID: -651327523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_275
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d65500129cbf246b9bd4a40dab4d1a
+      internalID: 304755308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_276
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e913e364f7915845a46e89646fe996c
+      internalID: -813885367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_277
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7947f85e488154eb617814c2dfbb0a
+      internalID: 951498501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_278
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5227f7f7ab2c9bc47a2823e493dbcdeb
+      internalID: -247681567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_279
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 951
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0b549169f94234da99b4dd242ac538
+      internalID: -458821275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76166257ea8a70d4e889d1216ff03367
+      internalID: -962845723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_281
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9cef2675c7db14bae576bd5c03d242
+      internalID: 297862067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_282
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738d19997a4d1b54b9a8af3a68e493b9
+      internalID: -941016771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_283
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133f1b49ec44b2440a9df62c7a0537cd
+      internalID: -274448532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_284
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab9382bb3dc5a044af24ec6e608160b
+      internalID: 43539834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_285
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca4050913d90144983c213bb557441a
+      internalID: 1708583453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_286
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 634
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bae7822ebd1ec4d95f58403335e8f4
+      internalID: -1103982426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_287
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabd36de0d46f3c40bb6fa1cf03a83e7
+      internalID: 1863760105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_288
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fecdf6457888e4eaf18a4073861c2f
+      internalID: 517022302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_289
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10810591b382b644587d6427fcf76bd3
+      internalID: -1639825872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_290
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e675de19eacd7e40867b04139573239
+      internalID: -1443294961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_291
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65371ea88d0930419c6ade4aed46349
+      internalID: 2100320844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_292
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad25208740a65fa44adc65e725d4078b
+      internalID: -786267104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_293
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 317
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eff87974c8faf41a1dd41ecc45d377
+      internalID: 2078630173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ef66000fe8c2448dfab27ecb84922
+      internalID: 2098783696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_295
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7440a4020d3e14293794d31d543674
+      internalID: 1471276471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_296
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c810a1e19804ffe41b9af8a8f93c98fe
+      internalID: -2056550465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_297
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f11593b1e2a8d142b899b3bfade90a4
+      internalID: -858629172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_298
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ed9e42b82f68b4e83fb97e779c9853
+      internalID: -1039991996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_299
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c23ea55e3afc141aa36368639ac23c
+      internalID: -453281665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: globe_sprite_300
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 0
+        width: 317
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c11f58f2a870042b8d860b7aa53ed6
+      internalID: -1227471605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be994279480f4a74bb4a746ef45b62ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      globe_sprite_0: -612829942
+      globe_sprite_1: -1168129036
+      globe_sprite_10: 272009281
+      globe_sprite_100: -508593422
+      globe_sprite_101: 1278617160
+      globe_sprite_102: -541999825
+      globe_sprite_103: -1143873995
+      globe_sprite_104: 156920722
+      globe_sprite_105: 323873783
+      globe_sprite_106: -1907063137
+      globe_sprite_107: -1408243780
+      globe_sprite_108: -1639631213
+      globe_sprite_109: 2126332895
+      globe_sprite_11: 1936800949
+      globe_sprite_110: -1416525748
+      globe_sprite_111: -1501036632
+      globe_sprite_112: -72293035
+      globe_sprite_113: 1392360774
+      globe_sprite_114: 562370133
+      globe_sprite_115: -27929771
+      globe_sprite_116: 1074124268
+      globe_sprite_117: 1747523224
+      globe_sprite_118: 195272576
+      globe_sprite_119: 400846476
+      globe_sprite_12: -1235881753
+      globe_sprite_120: 94606762
+      globe_sprite_121: -762577015
+      globe_sprite_122: -775570358
+      globe_sprite_123: -1103044396
+      globe_sprite_124: 1234537839
+      globe_sprite_125: -1569543830
+      globe_sprite_126: -102055100
+      globe_sprite_127: -358059505
+      globe_sprite_128: 772179779
+      globe_sprite_129: -1860487998
+      globe_sprite_13: -1941856626
+      globe_sprite_130: 1413138428
+      globe_sprite_131: -1269067820
+      globe_sprite_132: 1918909732
+      globe_sprite_133: -1931189786
+      globe_sprite_134: 1799035702
+      globe_sprite_135: -286770288
+      globe_sprite_136: -858169134
+      globe_sprite_137: 966975328
+      globe_sprite_138: 1295418330
+      globe_sprite_139: 538329139
+      globe_sprite_14: 287612935
+      globe_sprite_140: 1233261306
+      globe_sprite_141: -647145461
+      globe_sprite_142: -765290627
+      globe_sprite_143: -595934363
+      globe_sprite_144: -1139473721
+      globe_sprite_145: 2027648652
+      globe_sprite_146: 462499340
+      globe_sprite_147: -645834223
+      globe_sprite_148: 1714040713
+      globe_sprite_149: 123191437
+      globe_sprite_15: 688966127
+      globe_sprite_150: -1202906957
+      globe_sprite_151: 1349428935
+      globe_sprite_152: -618237024
+      globe_sprite_153: 916933382
+      globe_sprite_154: 1371984259
+      globe_sprite_155: 130693359
+      globe_sprite_156: 952098180
+      globe_sprite_157: -2043883476
+      globe_sprite_158: -1748190151
+      globe_sprite_159: -560856426
+      globe_sprite_16: 1283444791
+      globe_sprite_160: -782299400
+      globe_sprite_161: 64588804
+      globe_sprite_162: -1265511645
+      globe_sprite_163: -1493331656
+      globe_sprite_164: 3970957
+      globe_sprite_165: -164116113
+      globe_sprite_166: -1576314088
+      globe_sprite_167: 71845847
+      globe_sprite_168: -288807292
+      globe_sprite_169: 262533125
+      globe_sprite_17: 1164243886
+      globe_sprite_170: 1429804362
+      globe_sprite_171: -2126225001
+      globe_sprite_172: 1692784008
+      globe_sprite_173: 1809649982
+      globe_sprite_174: 1447941197
+      globe_sprite_175: -1567708238
+      globe_sprite_176: 1243889359
+      globe_sprite_177: -1441952104
+      globe_sprite_178: 586443751
+      globe_sprite_179: -1462383574
+      globe_sprite_18: 95533121
+      globe_sprite_180: 2057287640
+      globe_sprite_181: -1492570668
+      globe_sprite_182: 1812473849
+      globe_sprite_183: -1806740795
+      globe_sprite_184: 1023671574
+      globe_sprite_185: -742243414
+      globe_sprite_186: -2069968083
+      globe_sprite_187: -1341769041
+      globe_sprite_188: 1733792427
+      globe_sprite_189: 1393645938
+      globe_sprite_19: 1540652829
+      globe_sprite_190: -518928188
+      globe_sprite_191: 309075397
+      globe_sprite_192: -374755884
+      globe_sprite_193: -158939259
+      globe_sprite_194: -222714789
+      globe_sprite_195: 74493729
+      globe_sprite_196: 1911444269
+      globe_sprite_197: -1618978712
+      globe_sprite_198: 498086308
+      globe_sprite_199: -2063316275
+      globe_sprite_2: 1211996764
+      globe_sprite_20: -209637995
+      globe_sprite_200: 403764002
+      globe_sprite_201: 1170420262
+      globe_sprite_202: 977427379
+      globe_sprite_203: 1630008804
+      globe_sprite_204: 2117013387
+      globe_sprite_205: -7029585
+      globe_sprite_206: -1855826349
+      globe_sprite_207: 885067181
+      globe_sprite_208: -381526816
+      globe_sprite_209: 1076148857
+      globe_sprite_21: -1237600716
+      globe_sprite_210: 536396811
+      globe_sprite_211: 1174570087
+      globe_sprite_212: -1079971849
+      globe_sprite_213: 653896553
+      globe_sprite_214: 1221350438
+      globe_sprite_215: -1705773491
+      globe_sprite_216: -157543993
+      globe_sprite_217: 687265150
+      globe_sprite_218: 48851005
+      globe_sprite_219: -207465685
+      globe_sprite_22: -923033633
+      globe_sprite_220: -1357210100
+      globe_sprite_221: -1618990573
+      globe_sprite_222: -1093232998
+      globe_sprite_223: 1735552310
+      globe_sprite_224: 1838718469
+      globe_sprite_225: -1115115710
+      globe_sprite_226: 1473747106
+      globe_sprite_227: -127682065
+      globe_sprite_228: -1088907196
+      globe_sprite_229: 612403166
+      globe_sprite_23: -1489716404
+      globe_sprite_230: -1262336739
+      globe_sprite_231: -1052506491
+      globe_sprite_232: 518677446
+      globe_sprite_233: -1171476967
+      globe_sprite_234: -191882001
+      globe_sprite_235: -2084601880
+      globe_sprite_236: 660788981
+      globe_sprite_237: -608082933
+      globe_sprite_238: -1501023552
+      globe_sprite_239: 2107067536
+      globe_sprite_24: 1196874518
+      globe_sprite_240: -602819430
+      globe_sprite_241: -1218165990
+      globe_sprite_242: 1853107649
+      globe_sprite_243: -952759423
+      globe_sprite_244: 1096351610
+      globe_sprite_245: 612469473
+      globe_sprite_246: -949923961
+      globe_sprite_247: 921204783
+      globe_sprite_248: 2046066600
+      globe_sprite_249: -69463031
+      globe_sprite_25: 1295189606
+      globe_sprite_250: -195410547
+      globe_sprite_251: -939804154
+      globe_sprite_252: 514454964
+      globe_sprite_253: 407793678
+      globe_sprite_254: -1353173615
+      globe_sprite_255: -1612074779
+      globe_sprite_256: 2025384223
+      globe_sprite_257: 467430668
+      globe_sprite_258: -1675097995
+      globe_sprite_259: -1105194734
+      globe_sprite_26: -1590220937
+      globe_sprite_260: -814087043
+      globe_sprite_261: -311350143
+      globe_sprite_262: 748482673
+      globe_sprite_263: 2044327464
+      globe_sprite_264: -496069531
+      globe_sprite_265: -200925602
+      globe_sprite_266: -1340576207
+      globe_sprite_267: 396743907
+      globe_sprite_268: -12732201
+      globe_sprite_269: 121263268
+      globe_sprite_27: -1831232824
+      globe_sprite_270: 1710417612
+      globe_sprite_271: 500858297
+      globe_sprite_272: 1187437210
+      globe_sprite_273: 596609351
+      globe_sprite_274: -651327523
+      globe_sprite_275: 304755308
+      globe_sprite_276: -813885367
+      globe_sprite_277: 951498501
+      globe_sprite_278: -247681567
+      globe_sprite_279: -458821275
+      globe_sprite_28: 2033241069
+      globe_sprite_280: -962845723
+      globe_sprite_281: 297862067
+      globe_sprite_282: -941016771
+      globe_sprite_283: -274448532
+      globe_sprite_284: 43539834
+      globe_sprite_285: 1708583453
+      globe_sprite_286: -1103982426
+      globe_sprite_287: 1863760105
+      globe_sprite_288: 517022302
+      globe_sprite_289: -1639825872
+      globe_sprite_29: 2144616940
+      globe_sprite_290: -1443294961
+      globe_sprite_291: 2100320844
+      globe_sprite_292: -786267104
+      globe_sprite_293: 2078630173
+      globe_sprite_294: 2098783696
+      globe_sprite_295: 1471276471
+      globe_sprite_296: -2056550465
+      globe_sprite_297: -858629172
+      globe_sprite_298: -1039991996
+      globe_sprite_299: -453281665
+      globe_sprite_3: 1418997710
+      globe_sprite_30: -1202019906
+      globe_sprite_300: -1227471605
+      globe_sprite_31: -1852149116
+      globe_sprite_32: 1098671563
+      globe_sprite_33: -1839909106
+      globe_sprite_34: 571460413
+      globe_sprite_35: -299302236
+      globe_sprite_36: -965501208
+      globe_sprite_37: 478697359
+      globe_sprite_38: -471654434
+      globe_sprite_39: 1122176241
+      globe_sprite_4: -1171259313
+      globe_sprite_40: -241818952
+      globe_sprite_41: -499496034
+      globe_sprite_42: -573949964
+      globe_sprite_43: -1195511516
+      globe_sprite_44: 245927716
+      globe_sprite_45: 2105703048
+      globe_sprite_46: 1252015128
+      globe_sprite_47: 1765450028
+      globe_sprite_48: 1037291350
+      globe_sprite_49: 992578013
+      globe_sprite_5: 1588609860
+      globe_sprite_50: -144288195
+      globe_sprite_51: 1138529246
+      globe_sprite_52: -828441303
+      globe_sprite_53: -685791014
+      globe_sprite_54: 1770025477
+      globe_sprite_55: 1377906540
+      globe_sprite_56: 1353872226
+      globe_sprite_57: 1918605453
+      globe_sprite_58: 1979951433
+      globe_sprite_59: -1173626680
+      globe_sprite_6: -1108069789
+      globe_sprite_60: 1334251457
+      globe_sprite_61: -921212473
+      globe_sprite_62: -1812377297
+      globe_sprite_63: -2109923893
+      globe_sprite_64: 1666722399
+      globe_sprite_65: 13619965
+      globe_sprite_66: -270385844
+      globe_sprite_67: 1856660866
+      globe_sprite_68: -1091777525
+      globe_sprite_69: -1693154666
+      globe_sprite_7: -1598696709
+      globe_sprite_70: -594377362
+      globe_sprite_71: -808053347
+      globe_sprite_72: -1503273157
+      globe_sprite_73: 1509912438
+      globe_sprite_74: 942262522
+      globe_sprite_75: -76393184
+      globe_sprite_76: -727332591
+      globe_sprite_77: -1271872396
+      globe_sprite_78: -82849033
+      globe_sprite_79: 1535822203
+      globe_sprite_8: -817549963
+      globe_sprite_80: -1747969649
+      globe_sprite_81: -781044079
+      globe_sprite_82: -1546964283
+      globe_sprite_83: 1307177297
+      globe_sprite_84: -1201061975
+      globe_sprite_85: 1488999442
+      globe_sprite_86: -1403212998
+      globe_sprite_87: 1194881923
+      globe_sprite_88: -151529609
+      globe_sprite_89: -1936968405
+      globe_sprite_9: -1535860676
+      globe_sprite_90: 1168174850
+      globe_sprite_91: 1866925337
+      globe_sprite_92: 2103410392
+      globe_sprite_93: -189305068
+      globe_sprite_94: 152979903
+      globe_sprite_95: -1728720812
+      globe_sprite_96: 595537848
+      globe_sprite_97: 2111975449
+      globe_sprite_98: 1075008194
+      globe_sprite_99: 2045287029
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

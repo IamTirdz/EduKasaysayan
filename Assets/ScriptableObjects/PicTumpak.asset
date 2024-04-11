@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5af34a844c8b8d14eb976dec2ffc78c2, type: 3}
+  m_Name: PicTumpak
+  m_EditorClassIdentifier: 
+  words:
+  - images:
+    - {fileID: 21300000, guid: 04c510dfbbe13f243a4a47ab8a48c51c, type: 3}
+    - {fileID: 21300000, guid: 76e325005d668204d8fb8bfdeda860e3, type: 3}
+    - {fileID: 21300000, guid: 5566e126ea2806345864bee409028fcb, type: 3}
+    - {fileID: 21300000, guid: 4e7ee98fbd37e4f4e9666c40db2dae76, type: 3}
+    correctAnswer: HEOGRAPIYA
+  - images:
+    - {fileID: 21300000, guid: 58ddfcefba09fdc46a93abdc47d17a74, type: 3}
+    - {fileID: 21300000, guid: 772fa53e86bcb9544ada377e61128478, type: 3}
+    - {fileID: 21300000, guid: 3a3fd86834e1b5542a6e56078135647e, type: 3}
+    - {fileID: 21300000, guid: 6c8235bdd678c9145827dd46f5488896, type: 3}
+    correctAnswer: KRISTIYANISMO
+  - images:
+    - {fileID: 21300000, guid: 659e4480a6952f54ab2190248f04340a, type: 3}
+    - {fileID: 21300000, guid: 05a40ee0a4cb5974a8b73fc2de2a9a76, type: 3}
+    correctAnswer: PANTAO
+  - images:
+    - {fileID: 21300000, guid: 680a2eeb5bf7f0947aa2d123c99b4d0b, type: 3}
+    - {fileID: 21300000, guid: bd73bd5a50efbd145bd35b76b3e892a8, type: 3}
+    - {fileID: 21300000, guid: 0e8c105a3c7e04c4ab1d6bf1b962c2ab, type: 3}
+    correctAnswer: KULTURA
+  - images:
+    - {fileID: 21300000, guid: 86a7927d25870fd46abd9a95dd31ee00, type: 3}
+    - {fileID: 21300000, guid: e3bfc4b9848c825469cd55ee7f3942af, type: 3}
+    - {fileID: 21300000, guid: 5d3127b9a4f1b6d47b10643bee0bf945, type: 3}
+    correctAnswer: LOKASYON

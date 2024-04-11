@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa91dad451f4de418f9d5cd3eeb267d, type: 3}
+  m_Name: QuizLesson2
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: "\_Ang relihiyon ay nagmula sa salitang religare na nangangahulugang?"
+    questionImage: {fileID: 0}
+    options:
+    - Pagkakaisa
+    - Pagkakakilanlan
+    - Pagsasama-sama
+    - Pagnanais
+    correctAnswer: Pagsasama-sama
+    questionType: 0
+  - questionText: Ito ang pangunahing Relihiyon na may pinakamataas na bilang ng
+      mga tagasunod.
+    questionImage: {fileID: 0}
+    options:
+    - Kristyanismo
+    - Budismo
+    - Hinduismo
+    - Islam
+    correctAnswer: Kristyanismo
+    questionType: 0
+  - questionText: "\_Ito ang Relihiyon na pangalawa sa may pinakamataas na bilang
+      ng tagasunod."
+    questionImage: {fileID: 0}
+    options:
+    - Islam
+    - Agnostic
+    - Budismo
+    - Hinduismo
+    correctAnswer: Islam
+    questionType: 0
+  - questionText: "Ang salitang \u201Cetniko\u201D ay nagmula sa salitang Griyego
+      na \u201Cethnos\u201D na nangangahulugang ano?"
+    questionImage: {fileID: 0}
+    options:
+    - Pamumuhay
+    - Mamamayan
+    - Lalawigan
+    - Bayan
+    correctAnswer: Mamamayan
+    questionType: 0
+  - questionText: Ito ay tumutukoy sa pagkakakilanlan ng isang pangkat.
+    questionImage: {fileID: 0}
+    options:
+    - Pangkat
+    - Miyembro
+    - Lahi
+    - Kasapi
+    correctAnswer: Lahi
+    questionType: 0
+  - questionText: Bakit tinatawag na pangkat etnolingwistiko ang mga kabilang sa
+      pangkat-etniko?
+    questionImage: {fileID: 0}
+    options:
+    - Maraming Miyembro
+    - Naninirahan sa iisang lugar
+    - Gumagamit ng iisang wika
+    - Naniniwala sa iisang Diyos
+    correctAnswer: Gumagamit ng iisang wika
+    questionType: 0
+  - questionText: Alin sa mga sumusunod ang HINDI kabilang sa pangkat-etnolongwistiko?
+    questionImage: {fileID: 0}
+    options:
+    - Arabs
+    - Bengalis
+    - Han Chinese
+    - Japanese
+    correctAnswer: Japanese
+    questionType: 0
+  - questionText: Alin sa mga sumusunod ang may pinakamataas na populasyon ng pangkat-etnolongwistiko?
+    questionImage: {fileID: 0}
+    options:
+    - Arabs
+    - Bengalis
+    - Han Chinese
+    - Japanese
+    correctAnswer: Han Chinese
+    questionType: 0
+  - questionText: Alin ang dalawang batayan ng Paghahating Etnolingwistiko?
+    questionImage: {fileID: 0}
+    options:
+    - Relihiyon at Lahi
+    - Etnisidad at Wika
+    - Lahi at Relihiyon
+    - Kultura at Tradisyon
+    correctAnswer: Relihiyon at Lahi
+    questionType: 0
+  - questionText: Alin sa mga sumusunod ang kabilang sa pangkat-etnolongwistiko?
+    questionImage: {fileID: 0}
+    options:
+    - Han Chinese
+    - Japanese
+    - Filipino
+    - Koreans
+    correctAnswer: Han Chinese
+    questionType: 0

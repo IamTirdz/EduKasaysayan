@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb8a1e8e213ffe4abbd2afa14f2177b, type: 3}
+  m_Name: Lahi at Pangkat-Etniko
+  m_EditorClassIdentifier: 
+  lessons:
+  - lessonTitle: 
+    options:
+    - lessonText: "Ang mga tao sa daigdig ay nahahati sa iba\u2019t ibang pangkat.
+        Isa sa mga batayan ay ang pangkat-etniko na kanyang kinabibilangan. "
+      lessonImage: {fileID: 21300000, guid: 96546b76ad3396847b7a983f3c252c77, type: 3}
+      lessonType: 2
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 40a6335b2e57eee40b7b8f45031a0b16, type: 3}
+      lessonType: 1
+  - lessonTitle: 
+    options:
+    - lessonText: ' Maliwanag ang pagkakakilanlan ng bawat pangkat-etniko dahil pinagbubuklod
+        ng magkakatulad na kultura, pinagmulan, wika, at relihiyon.'
+      lessonImage: {fileID: 0}
+      lessonType: 0
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 46541b26c7b2ffe4fafc179d8e879aa2, type: 3}
+      lessonType: 1
+  - lessonTitle: 
+    options:
+    - lessonText: "Ang RACE o LAHI ay tumutukoy sa pagkakakilanlan ng isang pangkat.
+        Ayon sa mga eksperto may iba\u2019t ibang klasipikasyon  "
+      lessonImage: {fileID: 0}
+      lessonType: 0
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: b49625940ff735540823f866fa2739e2, type: 3}
+      lessonType: 1
+  - lessonTitle: 
+    options:
+    - lessonText: "ng tao sa daigdig na nagdulot ng kontrobersiya sapagkat maaaring
+        magpakita ng iba\u2019t ibang uri ng diskriminasyon. "
+      lessonImage: {fileID: 0}
+      lessonType: 0
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: b49625940ff735540823f866fa2739e2, type: 3}
+      lessonType: 1
+  - lessonTitle: Tinatawag din na pangkat etnolinggwistiko ang mga pangkat-etniko
+      dahil karamihan sa mga ito ay gumagamit ng iisang wika.
+    options:
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 50788caaed9be4741b25758fc9d8a074, type: 3}
+      lessonType: 1
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 373fb6035188f984393cac5ee6c60621, type: 3}
+      lessonType: 1
+  - lessonTitle: 
+    options:
+    - lessonText: Samantala, ang pagkakapareho at pagkakaiba ng mga tao sa isang
+        bansa ayon sa kultura ay tinatawag na Grupong Etnolingwistiko
+      lessonImage: {fileID: 0}
+      lessonType: 0
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: e32d3b00503f36243823ca2614ba3b55, type: 3}
+      lessonType: 1
+  - lessonTitle: 'Dalawang batayan ng  paghahating Etnolinggwistiko '
+    options:
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 11dd5465489234b45bf444e06a4bd5f9, type: 3}
+      lessonType: 1
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 6c45083455b915b49ab1c36d31427992, type: 3}
+      lessonType: 1

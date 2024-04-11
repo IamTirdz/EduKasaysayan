@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccb8a1e8e213ffe4abbd2afa14f2177b, type: 3}
+  m_Name: Katangian Pisikal ng Daigdig
+  m_EditorClassIdentifier: 
+  lessons:
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 10c0f817b008cf949b48331921fd621e, type: 3}
+      lessonType: 1
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 17196ab003298e04eac637b8eef3b474, type: 3}
+      lessonType: 1
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: "Ang mundo ay ikatlo sa mga planeta mula sa posisyon nito sa araw.
+        Ang mundo o ang \u201CEarth\u201D ay ang daigdig kung saan tayo ay naninirahan.
+        Ang daigdig\_ay may kabuuang\_sukat\_na 510, 056, 000 kilometro parisukat
+        at ito\_ang\_panglimang pinakamalaking planeta sa buong solar system."
+      lessonImage: {fileID: 0}
+      lessonType: 0
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: "Sa loob ng isang orbit sa Araw, ang\_Daigdig\_ay umiikot sa aksis
+        nito nang 366.62 beses, na lumilikha ng 365.26 araw na solar o isang sidereal
+        year."
+      lessonImage: {fileID: -612829942, guid: 927a1ce05e7bf9a49b808dc6fbd19389, type: 3}
+      lessonType: 0
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: Halos 70% ang bahagi ng daigdig na napalilibutan ng katubigan at
+        ang 30% nito ay kalupaan.
+      lessonImage: {fileID: 0}
+      lessonType: 0
