@@ -18,18 +18,43 @@ MonoBehaviour:
     - lessonText: 
       lessonImage: {fileID: 21300000, guid: 10c0f817b008cf949b48331921fd621e, type: 3}
       lessonType: 1
+    - lessonText: 'Crust - Ito ang matigas at mabatong bahagi ng planeta. '
+      lessonImage: {fileID: 21300000, guid: 2ebd6af822722af4f8ec5fef084dd3d6, type: 3}
+      lessonType: 2
+  - lessonTitle: 
+    options:
     - lessonText: 
-      lessonImage: {fileID: 21300000, guid: 17196ab003298e04eac637b8eef3b474, type: 3}
+      lessonImage: {fileID: 21300000, guid: 10c0f817b008cf949b48331921fd621e, type: 3}
       lessonType: 1
+    - lessonText: 'Mantle - Ito ang parte ng daigdig kung saan matatagpuan ang mga
+        batong maiinit o molten rocks. '
+      lessonImage: {fileID: 21300000, guid: 2ebd6af822722af4f8ec5fef084dd3d6, type: 3}
+      lessonType: 2
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: 21300000, guid: 10c0f817b008cf949b48331921fd621e, type: 3}
+      lessonType: 1
+    - lessonText: 'Core - Ito ang tawag sa bahagi ng daigdig na binubuo ng mga metal
+        tulad ng iron at nickel.  '
+      lessonImage: {fileID: 21300000, guid: 2ebd6af822722af4f8ec5fef084dd3d6, type: 3}
+      lessonType: 2
   - lessonTitle: 
     options:
     - lessonText: 
       lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
       lessonType: 3
     - lessonText: "Ang mundo ay ikatlo sa mga planeta mula sa posisyon nito sa araw.
-        Ang mundo o ang \u201CEarth\u201D ay ang daigdig kung saan tayo ay naninirahan.
-        Ang daigdig\_ay may kabuuang\_sukat\_na 510, 056, 000 kilometro parisukat
-        at ito\_ang\_panglimang pinakamalaking planeta sa buong solar system."
+        Ang mundo o ang \u201CEarth\u201D ay ang daigdig kung saan tayo ay naninirahan."
+      lessonImage: {fileID: 0}
+      lessonType: 0
+  - lessonTitle: 
+    options:
+    - lessonText: 
+      lessonImage: {fileID: -853546180, guid: 1958aea5a4796a24083c1aacf56fe69d, type: 3}
+      lessonType: 3
+    - lessonText: "Ang daigdig\_ay may kabuuang\_sukat\_na 510, 056, 000 kilometro
+        parisukat at ito\_ang\_panglimang pinakamalaking planeta sa buong solar system."
       lessonImage: {fileID: 0}
       lessonType: 0
   - lessonTitle: 
@@ -40,7 +65,7 @@ MonoBehaviour:
     - lessonText: "Sa loob ng isang orbit sa Araw, ang\_Daigdig\_ay umiikot sa aksis
         nito nang 366.62 beses, na lumilikha ng 365.26 araw na solar o isang sidereal
         year."
-      lessonImage: {fileID: -612829942, guid: 927a1ce05e7bf9a49b808dc6fbd19389, type: 3}
+      lessonImage: {fileID: 0}
       lessonType: 0
   - lessonTitle: 
     options:
