@@ -24,13 +24,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Credits.unity
     guid: 702cca1d99bb72447b5fcdf432e66571
   - enabled: 1
-    path: Assets/Scenes/QuizGame_Lesson_1.unity
+    path: Assets/Scenes/QuizGame.unity
     guid: fce7999ee1bef2e45a5f608a4bcccc0d
   - enabled: 1
     path: Assets/Scenes/QuizGame_Lesson_2.unity
     guid: 8d052b0bf2369584b88fad18259689f9
   - enabled: 1
-    path: Assets/Scenes/ActivityGame.unity
+    path: Assets/Scenes/ActivityGameSelection.unity
     guid: 9a8ccd337432b3747a41c9de9164dcea
   - enabled: 1
     path: Assets/Scenes/LessonPageView.unity

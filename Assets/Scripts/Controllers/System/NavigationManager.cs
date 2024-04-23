@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class NavigationManager : MonoBehaviour
 {
@@ -20,18 +21,56 @@ public class NavigationManager : MonoBehaviour
 
     public void LoadScene(int sceneId)
     {
-        SceneManager.LoadSceneAsync(sceneId); //, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(sceneId);
     }
 
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName); //, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 
     public void BackToPreviousScene()
     {
-        SceneManager.LoadScene(previousScene); //, LoadSceneMode.Additive);
+        SceneManager.LoadScene(previousScene);
     }
+
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+        Application.Quit();
+    }
+
+    #region GAME MUSIC
+    public void ResetSoundAndNavigate(string sceneName)
+    {
+        SceneManager.LoadSceneAsync(sceneName);
+        AudioManager.instance.PlayMusic("MusicTheme");
+    }
+
+    public void ToggleMusicAndNavigate(string sceneName)
+    {
+        SceneManager.LoadSceneAsync(sceneName);
+        AudioManager.instance.ToggleMusic();
+    }
+    #endregion
+
+    #region QUIZ GAME
+    public void LoadRandomQuizScene()
+    {
+        int index = Random.Range(0, 2);
+        PlayerPrefs.SetInt("QuizGameIndex", index);
+        SceneManager.LoadSceneAsync("QuizGame");
+    }
+
+    public void LoadQuizScene(int index)
+    {
+        PlayerPrefs.SetInt("QuizGameIndex", index);
+        SceneManager.LoadSceneAsync("QuizGame");
+    }
+    #endregion
+
 
     public void LoadLessonModule()
     {
@@ -78,17 +117,6 @@ public class NavigationManager : MonoBehaviour
         SceneManager.LoadSceneAsync($"WikaPageView_Module-{moduleName}");        
     }
 
-    public void LoadQuizModule()
-    {
-        string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-        //string buttonName = EventSystem.current.currentSelectedGameObject.name;
-        //QuizManager.instance.SetCategory((int)Enum.Parse(typeof(QuizModule), buttonText));
-
-        var selectedButton = buttonText.Replace(" ", "_");
-        SceneManager.LoadSceneAsync($"QuizGame_{selectedButton}");
-        
-    }
-
     public void LoadActivityModule()
     {
         SceneManager.LoadSceneAsync("ActivityGame");
@@ -103,25 +131,5 @@ public class NavigationManager : MonoBehaviour
         var selectedGame = PlayerPrefs.GetString("SelectedActivityGame", "KnowYourLabel");
         var gameModule = selectedGame.Replace(" ", string.Empty).Replace("!", string.Empty);
         SceneManager.LoadSceneAsync(gameModule);   
-    }
-
-    public void ResetSoundAndNavigate(string sceneName)
-    {        
-        SceneManager.LoadSceneAsync(sceneName);
-        AudioManager.instance.PlayMusic("MusicTheme");
-    }
-
-    public void ToggleMusicAndNavigate(string sceneName)
-    {
-         SceneManager.LoadSceneAsync(sceneName);
-        AudioManager.instance.ToggleMusic();
-    }
-
-    public void QuitGame()
-    {
-        // #if UNITY_EDITOR
-        // UnityEditor.EditorApplication.isPlaying = false;
-        // #endif
-        Application.Quit();
     }
 }

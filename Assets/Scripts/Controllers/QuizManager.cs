@@ -6,19 +6,20 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System;
 
 public class QuizManager : MonoBehaviour
 {
     public static QuizManager instance;
     [SerializeField] private QuizUIManager quizUI;
     [SerializeField] private Color correctColor, wrongColor, neutralColor, optionColor;
-    [SerializeField] private QuizDataScript quizScript;
+    [SerializeField] private List<QuizDataScript> quizScript;
     [SerializeField] private bool isRandomQuestion;
     [SerializeField] public int questionNumber;
     [SerializeField] public string correctGuessWord;
     [SerializeField] private float gameOverUIDelayTime = 2.0f;
 
-    private int totalScore = 0, categoryIndex = 0;
+    private int totalScore = 0, categoryIndex = 0, quizIndex = 0;
     private bool isCorrectAnswer = false;
     private int currentWordIndex = 0, quizCounter = 0;
     private List<int> lastWordIndex;
@@ -43,6 +44,9 @@ public class QuizManager : MonoBehaviour
 
         lastWordIndex = new List<int>();
         categoryIndex = 0;
+
+        quizIndex = PlayerPrefs.GetInt("QuizGameIndex", 0);
+
         ResetGame();
         GenerateQuestion();
     }
@@ -75,22 +79,22 @@ public class QuizManager : MonoBehaviour
     {
         ResetButtonUI();
 
-        if (quizCounter < quizScript.questions.Count)
+        if (quizCounter < quizScript[quizIndex].questions.Count)
         {
             questionNumber = quizCounter + 1;
 
             categoryIndex = isRandomQuestion 
-                ? Randomize.Index(quizScript.questions.Count, lastWordIndex)
+                ? Randomize.Index(quizScript[quizIndex].questions.Count, lastWordIndex)
                 : quizCounter;
 
-            correctGuessWord = quizScript.questions[categoryIndex].correctAnswer;
+            correctGuessWord = quizScript[quizIndex].questions[categoryIndex].correctAnswer;
 
-            switch (quizScript.questions[categoryIndex].questionType)
+            switch (quizScript[quizIndex].questions[categoryIndex].questionType)
             {
                 case QuestionType.IMAGE:
                     quizUI.questionImage.transform.parent.gameObject.SetActive(true);
                     quizUI.questionText.transform.parent.gameObject.SetActive(false);
-                    quizUI.questionImage.sprite = quizScript.questions[categoryIndex].questionImage;
+                    quizUI.questionImage.sprite = quizScript[quizIndex].questions[categoryIndex].questionImage;
                     break;
                 case QuestionType.TEXT:
                     quizUI.questionImage.transform.parent.gameObject.SetActive(false);
@@ -99,12 +103,12 @@ public class QuizManager : MonoBehaviour
                 case QuestionType.IMAGETEXT:
                     quizUI.questionImage.transform.parent.gameObject.SetActive(true);
                     quizUI.questionText.transform.parent.gameObject.SetActive(true);
-                    quizUI.questionImage.sprite = quizScript.questions[categoryIndex].questionImage;
+                    quizUI.questionImage.sprite = quizScript[quizIndex].questions[categoryIndex].questionImage;
                     break;
             }
 
-            quizUI.questionText.text = quizScript.questions[categoryIndex].questionText;
-            List<string> wordToGuess = ShuffleList.OfItems<string>(quizScript.questions[categoryIndex].options.ToList());
+            quizUI.questionText.text = quizScript[quizIndex].questions[categoryIndex].questionText;
+            List<string> wordToGuess = ShuffleList.OfItems<string>(quizScript[quizIndex].questions[categoryIndex].options.ToList());
             currentWordIndex = wordToGuess.IndexOf(correctGuessWord);
             SetButtonWords(wordToGuess);
 
@@ -112,7 +116,7 @@ public class QuizManager : MonoBehaviour
         }
         else
         {           
-            Debug.Log($"🏆 Completed {quizScript.questions.Count} questions");
+            Debug.Log($"🏆 Completed {quizScript[quizIndex].questions.Count} questions");
             GameIsOver();
         }
     }
@@ -157,7 +161,7 @@ public class QuizManager : MonoBehaviour
         GameProgress.instance.StopTimer();
 
         quizUI.gameOverPanel.gameObject.SetActive(true);
-        quizUI.totalScoreText.text = $"{totalScore}/{quizScript.questions.Count}";
+        quizUI.totalScoreText.text = $"{totalScore}/{quizScript[quizIndex].questions.Count}";
 
         //quizUI.remarks.text = GetRemarks();
         GetRatings();
@@ -176,7 +180,7 @@ public class QuizManager : MonoBehaviour
 
     void GetRatings()
     {
-        var totalQuestions = quizScript.questions.Count;
+        var totalQuestions = quizScript[quizIndex].questions.Count;
         float scorePercentage = (float)totalScore / totalQuestions * 100f;
         Debug.Log($"scorePercentage: {scorePercentage}");
 
@@ -218,7 +222,7 @@ public class QuizManager : MonoBehaviour
             Debug.Log("❎❎❎ Wrong Answer");
         }
 
-        if (quizScript.questions.Count == quizCounter)
+        if (quizScript[quizIndex].questions.Count == quizCounter)
         {
             Invoke("GameIsOver", gameOverUIDelayTime);
         }            
