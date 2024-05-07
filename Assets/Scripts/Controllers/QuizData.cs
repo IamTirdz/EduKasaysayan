@@ -53,7 +53,7 @@ public class QuizData : MonoBehaviour
 
     public void SetText(string value)
     {
-        optionWord.text = value; //.ToUpper();
+        optionWord.text = value;
     }
 
     public void SetName(string value)

@@ -16,28 +16,20 @@ public class LessonViewerManager : MonoBehaviour
 
     void Start() 
     {
-        // currentPage = 1;
-        Debug.Log($"HasKey: {PlayerPrefs.HasKey("SelectedLessonIndex")}");
-
         if (PlayerPrefs.HasKey("SelectedLessonIndex"))
             lessonIndex = PlayerPrefs.GetInt("SelectedLessonIndex", 0);
 
-        Debug.Log($"Lesson Index: {lessonIndex}");
         GenerateLessons(currentPage);
                 
         lessonUI.previousButtonPrefab.SetActive(false);
         lessonUI.nextButtonPrefab.SetActive(true);
         lessonUI.backToMenuButtonPrefab.SetActive(false);
 
-        var pageIndex = currentPage; //(currentPage - 1);
+        var pageIndex = currentPage;
         if (pageIndex == lessonScript[lessonIndex].lessons.Count - 1)
         {
             lessonUI.nextButtonPrefab.SetActive(false);
-            //lessonUI.backToMenuButtonPrefab.SetActive(true);
         }
-
-        //NextPageView();
-        //PreviousPageView();
 
         Debug.Log($"Lesson Count: {lessonScript[lessonIndex].lessons.Count} | Index: {lessonIndex}");
 
@@ -45,15 +37,8 @@ public class LessonViewerManager : MonoBehaviour
         button.onClick.AddListener(OnButtonCLick);
     }
 
-    private void GenerateLessons(int page)
+    private void GenerateLessons(int pageIndex)
     {
-        var pageIndex = page; //page - 1;
-        
-
-        Debug.Log($"GenerateLessons: isTrue");
-
-        //lessonUI.lessonTitle.gameObject.SetActive(true);
-        //content
         for (int i = 0; i < lessonScript[lessonIndex].lessons[pageIndex].options.Count; i++)
         {
             switch (lessonScript[lessonIndex].lessons[pageIndex].options[i].lessonType)
@@ -93,17 +78,6 @@ public class LessonViewerManager : MonoBehaviour
         }
 
         UpdateButtons(pageIndex);
-
-
-        //page
-        //if (pageIndex < lessonScript[lessonIndex].lessons.Count - 1)
-        //{
-
-        //}
-        //else
-        //{
-        //    Debug.Log($"Lesson Count: {lessonScript[lessonIndex].lessons.Count} but nothing to show");
-        //}
     }
 
     private void UpdateButtons(int page)
