@@ -1,8 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class ShuffleList
+public static class ShuffleList
 {
     public static List<T> OfItems<T>(List<T> items)
     {
