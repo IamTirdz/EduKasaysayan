@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameMusic : MonoBehaviour
@@ -8,6 +6,6 @@ public class GameMusic : MonoBehaviour
 
     void Start() 
     {
-        AudioManager.instance.PlayMusic(musicName);    
+        AudioManager.instance.PlayMusic(musicName);
     }
 }

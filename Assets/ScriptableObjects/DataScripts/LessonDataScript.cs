@@ -6,4 +6,5 @@ using UnityEngine;
 public class LessonDataScript : ScriptableObject
 {
     public List<Lesson> lessons;
+    public string nextScene;
 }
