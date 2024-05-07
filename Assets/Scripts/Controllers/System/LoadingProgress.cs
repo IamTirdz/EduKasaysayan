@@ -8,13 +8,26 @@ public class LoadingProgress : MonoBehaviour
     [SerializeField] private float duration = 10f;
     [SerializeField] private Slider progressBar;
     [SerializeField] private CanvasGroup canvasGroup;
+
     private bool fadeEffect = false;
-    private float currentTime;
 
     void Start()
     {
         fadeEffect = true;
-        StartCoroutine(LoadNextScene());
+        
+        StartCoroutine(LoadSceneAsync());
+    }
+
+    IEnumerator LoadSceneAsync()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync("MainMenu");
+
+        while (!operation.isDone)
+        {
+            float progressValue = Mathf.Clamp01(operation.progress / 0.9f);
+            progressBar.value = progressValue;
+            yield return null;
+        }
     }
 
     IEnumerator LoadNextScene()
