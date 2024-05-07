@@ -1,10 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -25,9 +22,6 @@ public class WordManager : MonoBehaviour
     private int currentAnswerIndex = 0, currentQuestionIndex = 0;
     private int totalScore = 0;
     private bool isCorrectAnswer = false;
-
-    //private List<char> shuffleCharValues;
-    //private int removedButton;
 
     private float timeoutDuration = 30.0f;
     private float gameOverTimer;
@@ -77,8 +71,7 @@ public class WordManager : MonoBehaviour
             if (GameProgress.instance.timeLeft <= 0)
             {
                 GameProgress.instance.StopTimer();
-                GameIsOver();
-                //quizUI.remarks.text = "Time's up!";            
+                GameIsOver();          
             }
         }
     }
@@ -87,33 +80,28 @@ public class WordManager : MonoBehaviour
     {
         ResetWordImage();
 
-        //make random questions
         currentQuestionIndex = isRandomQuestion
             ? Randomize.Index(wordScript.words.Count - 1, selectedCharIndex)
             : currentQuestionIndex;
 
         correctGuessWord = wordScript.words[currentQuestionIndex].correctAnswer;
 
-        //display questions images
         var imageCount = wordUI.images.Count();
         for (int i = 0; i < wordScript.words[currentQuestionIndex].images.Length; i++)
         {
             wordUI.images[i].sprite = wordScript.words[currentQuestionIndex].images[i];           
         }
 
-        //remove no image
         for (int j = wordScript.words[currentQuestionIndex].images.Length; j < wordUI.images.Length; j++)
         {
             wordUI.images[j].transform.parent.gameObject.SetActive(false);
         }
 
-        //clear arrays
         ResetWordQuestion();
         selectedCharIndex.Clear();
         randomIndexCounter.Clear();
         Array.Clear(charToGuess, 0, charToGuess.Length);
 
-        //random button selection
         int randomChar = UnityEngine.Random.Range(2, wordUI.buttonWordPrefab.Length - correctGuessWord.Length);
         charToGuess = new char[correctGuessWord.Length + randomChar];
 
@@ -121,11 +109,6 @@ public class WordManager : MonoBehaviour
         {
             charToGuess[i] = char.ToUpper(correctGuessWord[i]);
         }
-            
-        // for (int j = correctGuessWord.Length; j < charToGuess.Length; j++)
-        // {
-        //     charToGuess[j] = (char)UnityEngine.Random.Range(65, 90);
-        // }
 
         for (int j = correctGuessWord.Length; j < correctGuessWord.Length + randomChar; j++)
         {
@@ -133,18 +116,12 @@ public class WordManager : MonoBehaviour
             charToGuess[j] = randomCharKeyValue;
         }
 
-        //remove unused button
         for (int k = correctGuessWord.Length + randomChar; k < wordUI.buttonWordPrefab.Length; k++)
         {
             wordUI.buttonWordPrefab[k].gameObject.SetActive(false);
         }
 
         charToGuess = ShuffleList.OfItems<char>(charToGuess.ToList()).ToArray();
-
-        // for (int l = 0; l < wordUI.buttonWordPrefab.Length; l++)
-        // {
-        //     wordUI.buttonWordPrefab[l].SetWord(charToGuess[l]);
-        // } 
 
         for (int l = 0; l < charToGuess.Length; l++)
         {
@@ -166,7 +143,6 @@ public class WordManager : MonoBehaviour
             wordUI.inputWordPrefab[j].gameObject.SetActive(false);
         }
 
-        // display all buttons
         for (int k = 0; k < wordUI.buttonWordPrefab.Length; k++)
         {
             wordUI.buttonWordPrefab[k].gameObject.SetActive(true);
@@ -178,18 +154,16 @@ public class WordManager : MonoBehaviour
     private void ResetWordImage()
     {
         SetInputColor(normalColor);
-        // reset timer per question
+        
         GameProgress.instance.ResetTimer();
         availableHint = hintLimit;
         wordUI.hintButton.interactable = true;
 
-        //disable all hint text
         for (int i = 0; i < wordUI.hintWordPrefab.Length; i++)
         {
             wordUI.hintWordPrefab[i].gameObject.SetActive(false);
         }
 
-        //display all images
         for (int l = 0; l < wordUI.images.Length; l++)
         {
             wordUI.images[l].transform.parent.gameObject.SetActive(true);
@@ -324,48 +298,21 @@ public class WordManager : MonoBehaviour
         {
             Debug.Log("No available hint left!");
             wordUI.hintButton.interactable = false;
-            //return;
         }
 
-        
-        //int currentCharLefts = GetCharLefts();
         int randomIndex;
         do
         {
-            //int index = selectedCharIndex.Count;
             randomIndex = UnityEngine.Random.Range(0, correctGuessWord.Length);
             
-        } while(randomIndexCounter.Contains(randomIndex)); // && currentCharLefts < correctGuessWord.Length);
-
-        Debug.Log("index: " +randomIndex);
-        // if (!selectedCharIndex.Any())
-        // {
-        //     randomIndex = UnityEngine.Random.Range(0, correctGuessWord.Length);
-        //     Debug.Log("!selectedCharIndex: " + randomIndex);
-        // }
-        // else
-        // {
-        //     if (!randomIndexCounter.Contains(randomIndex)) // re index
-        //     {
-        //         int index = selectedCharIndex.Count;
-        //         randomIndex = UnityEngine.Random.Range(index, correctGuessWord.Length);
-        //         Debug.Log("randomIndex 1: " + randomIndex);
-        //     }
-        //     // else
-        //     // {
-                
-        //     //     randomIndex = UnityEngine.Random.Range(0, correctGuessWord.Length);
-        //     //     Debug.Log("randomIndex 2: " + randomIndex);
-        //     // }
-        // }
+        }
+        while(randomIndexCounter.Contains(randomIndex));
 
         randomIndexCounter.Add(randomIndex);
 
         char hintChar = correctGuessWord[randomIndex];
         wordUI.hintWordPrefab[randomIndex].gameObject.SetActive(true);
         wordUI.hintWordPrefab[randomIndex].text = hintChar.ToString();
-        
-        //wordUI.hintButton.interactable = availableHint >= 1;
 
         availableHint--;
     }

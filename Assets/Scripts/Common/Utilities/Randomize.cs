@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class Randomize
+public static class Randomize
 {
     public static int Index(int maxIndex, List<int> lastIndex)
     {

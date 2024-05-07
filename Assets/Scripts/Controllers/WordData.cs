@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -25,14 +24,6 @@ public class WordData : MonoBehaviour
     void WordSelected()
     {
         WordManager.instance.SetCharacter(this);
-
-        //disable double click
-        // if (buttonsEnabled)
-        // {
-        //     InteractableButton(false);
-
-        //     StartCoroutine(EnableButtonsAfterDelay(1.5f));
-        // }   
     }
 
     void InteractableButton(bool isEnabled)
@@ -67,6 +58,5 @@ public class WordData : MonoBehaviour
     public void SetColor(Color value)
     {
         this.GetComponent<Image>().color = new Color(value.r, value.g, value.b);
-        //this.gameObject.GetComponent<Image>().color = new Vector4(value.r, value.g, value.b, value.a);
     }
 }

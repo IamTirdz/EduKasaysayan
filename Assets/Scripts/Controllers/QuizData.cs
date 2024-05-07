@@ -1,9 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using System;
 
 public class QuizData : MonoBehaviour
 {
@@ -55,7 +53,7 @@ public class QuizData : MonoBehaviour
 
     public void SetText(string value)
     {
-        optionWord.text = value; //.ToUpper();
+        optionWord.text = value;
     }
 
     public void SetName(string value)

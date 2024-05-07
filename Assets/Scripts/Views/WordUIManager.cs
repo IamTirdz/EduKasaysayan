@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -20,5 +18,4 @@ public class WordUIManager : MonoBehaviour
     [SerializeField] public TMP_Text totalScoreText;
     [SerializeField] public Image[] ratingImage;
     [SerializeField] public Sprite[] ratings;
-    [SerializeField] public TMP_Text remarks;
 }

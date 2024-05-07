@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
@@ -35,9 +33,6 @@ public class TrackManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
         {
             PlayVideo();
         }
-
-        
-            
     }
 
     void Update()
@@ -81,40 +76,11 @@ public class TrackManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
     public void ToggleFullScreen()
     {
         isFullscreen = !isFullscreen;
-        //Screen.fullScreen = isFullscreen;
 
         blackScreen.SetActive(true);
         SetContainerRotation(-90f);
         
         containerPanel.sizeDelta = new Vector2(2560f, 1340f);
-
-        // containerPanel.anchorMin = Vector2.zero;
-        // containerPanel.anchorMax = Vector2.one;
-        
-        // containerPanel.sizeDelta = Vector2.zero;
-        // //containerPanel.position = Vector2.zero;
-        // //containerPanel.sizeDelta = new Vector2(Screen.currentResolution.height, Screen.currentResolution.width);
-        // containerPanel.anchoredPosition = Vector2.zero;
-
-        // Debug.Log("ToggleFullScreen width: " + Screen.width);
-        // Debug.Log("ToggleFullScreen height: " + Screen.height);
-
-        // // Store the original width and height
-        // float originalWidth = containerPanel.rect.width;
-        // float originalHeight = containerPanel.rect.height;
-
-        // //SetContainerRotation(-90f);
-        // containerPanel.rotation = Quaternion.Euler(0f, 0f, -90f);
-        
-        // float newWidth = containerPanel.rect.width;
-        // float newHeight = containerPanel.rect.height;
-
-        // //landscape
-        // containerPanel.sizeDelta = new Vector2(newHeight, newWidth);
-        //containerPanel.sizeDelta = new Vector2(containerPanel.rect.width, containerPanel.rect.height);
-
-        //AdjustVideoSizeAndFlipButtons();
-
         fullScreenButton.gameObject.SetActive(false);
         minimizeButton.gameObject.SetActive(true);
     }
@@ -129,7 +95,6 @@ public class TrackManager : MonoBehaviour, IPointerDownHandler, IPointerUpHandle
 
     public void ToggleMinimizeScreen()
     {
-        //videoPanel.sizeDelta = new Vector2(1280f, 900f);
         blackScreen.SetActive(false);
         SetContainerRotation(0f);
         

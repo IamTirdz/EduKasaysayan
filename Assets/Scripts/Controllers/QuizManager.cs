@@ -68,8 +68,7 @@ public class QuizManager : MonoBehaviour
             if (GameProgress.instance.timeLeft <= 0)
             {
                 GameProgress.instance.StopTimer();
-                GameIsOver();
-                //quizUI.remarks.text = "Time's up!";            
+                GameIsOver();           
             }
         }
     }
@@ -131,7 +130,6 @@ public class QuizManager : MonoBehaviour
 
     void ResetButtonUI()
     {
-        // reset timer per question
         GameProgress.instance.ResetTimer();        
 
         for (int i = 0; i < quizUI.buttonPrefab.Length; i++)
@@ -155,26 +153,13 @@ public class QuizManager : MonoBehaviour
     {
         isGameOver = true;
         AudioManager.instance.PlayMusic("GameIsOver");
-        //ResetGame()
         
         GameProgress.instance.StopTimer();
 
         quizUI.gameOverPanel.gameObject.SetActive(true);
         quizUI.totalScoreText.text = $"{totalScore}/{quizScript[quizIndex].questions.Count}";
 
-        //quizUI.remarks.text = GetRemarks();
         GetRatings();
-    }
-
-    private string GetRemarks()
-    {
-        return totalScore switch
-        {
-            1 => "Failed!",
-            > 3 and <= 8 => "Completed!",
-            > 8 and <= 10 => "Excellent!",
-            _ => "Failed!"
-        };
     }
 
     void GetRatings()
@@ -227,7 +212,6 @@ public class QuizManager : MonoBehaviour
         }            
         else
         {
-            //quizUI.nextButtonPrefab.SetActive(true); 
             NextQuestion();
         }
                  
@@ -244,20 +228,5 @@ public class QuizManager : MonoBehaviour
     public void NextQuestion()
     {
         Invoke("GenerateQuestion", 1.8f);
-    }
-
-    // public void SetCategory(int index)
-    // {
-    //     categoryIndex = index;
-    // }
-
-    IEnumerator ButtonClicked(Image image, Color color)
-    {
-        for (int i = 0; i < 2; i++)
-        {
-            image.color = color;
-            yield return new WaitForSeconds(0.09f);
-            image.color = neutralColor;
-        }
     }
 }

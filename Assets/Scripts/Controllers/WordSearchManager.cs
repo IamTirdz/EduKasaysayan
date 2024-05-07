@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,8 +8,7 @@ using UnityEngine.UI;
 public class WordSearchManager : MonoBehaviour
 {
     public WordSearchDataScript wordScript;
-    //[HideInInspector]
-    //public List<string> words;
+    
     [Space(15)]
     public bool isPlaying = true;
     public bool WantRandomLetters = false;
@@ -33,14 +31,13 @@ public class WordSearchManager : MonoBehaviour
     public List<GameObject> CorrectLettersList;
     [Space(15)]
     public int BoardSize = 15;
-    //[HideInInspector]
+    
     public int WordsLeft = 0;
     [Space(15)]
     [HideInInspector]
     public List<string> WordsToFind;
     [Space(15)]
-    //public TMP_Text InGameTimeText;
-    //public TMP_Text CompleteTimeText;
+    
     [Header("Prefabs")]
     public GameObject LetterPrefab;
     public GameObject WordPrefab;
@@ -50,8 +47,7 @@ public class WordSearchManager : MonoBehaviour
      [Space(15)]
     public GameObject GameIsComplete;
     public TMP_Text totalScoreText;
-    // public GameObject OnWordSearchPause;
-    // public Button PauseButton;
+    
     [Space(15)]
     private char BlankChar = '.';
     public char[,] WordSearchBoard;
@@ -69,86 +65,32 @@ public class WordSearchManager : MonoBehaviour
         MakeWordSearch();
     }
 
-    /// <summary>
-    /// creates a word search
-    /// </summary>
     public void MakeWordSearch()
     {
-        //set the size of the board with the grid layout group
         WordsGridParent.GetComponent<GridLayoutGroup>().constraintCount = BoardSize;
 
-        //loads the word from the selected puzzle
         LoadWordsToFind();
-
-        //random seed
         RandomSeed = Random.Range(0, 1000000);
         WordSearchBoard = MakeGrid(RandomSeed);
 
-        //make a grid
         MakeUiGrid(WordSearchBoard);
-
-        //tell the user what words to find
         PlaceWhatWordsAreInThePuzzle();
 
         WordsLeft = HowManyWordsAreLeft();
         TimeToComplete = 0;
     }
 
-    //todo: check this
-    // List<string> GetDataFromWebpage(string url)
-    // {
-    //     List<string> randomSet = new List<string>();
-    //     WebClient client = new WebClient();
-
-    //     while (randomSet.Count < NumberOfWords)
-    //     {
-    //         //make a URL call to the given URL, which is random word generator
-    //         ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-    //         string content = client.DownloadString(url);
-
-    //         //search the html or xml for this string VVV
-    //         string searchFor = "random_word";
-
-    //         //get start and end index of the word that you want
-    //         int start = content.IndexOf(searchFor);
-    //         int end = content.IndexOf("</div>", start - searchFor.Length);
-    //         string word = null;
-
-    //         //add the letters from the info above into a string
-    //         for (int j = searchFor.Length + 2; j < end - start; j++)
-    //         {
-    //             word += content[start + j];
-    //         }
-
-    //         //double check that it can even fit on the board
-    //         if (word.Length < BoardSize - 3) 
-    //         {
-    //             randomSet.Add(word);
-    //         }
-    //     }
-    //     return randomSet;
-    // }
-
     #region Create Word Search
-
-    /// <summary>
-    /// load what words to find
-    /// </summary>
     void LoadWordsToFind()
     {
         WordsToFind = wordScript.words;
-        //WordsToFind = new List<string>{ "hello", "world" };
     }
 
     public char[,] MakeGrid(int seed)
     {
-        //make a new char 2d array with board size dimensions
         char[,] newGrid = new char[BoardSize, BoardSize];
-
-        //I was new and I filled board with blank chars, but it does that by default so this is extra
         newGrid = InitBoard();
 
-        //places words on the board
         newGrid = PlaceWordsInTheBoard();
 
         if (WantRandomLetters)
@@ -157,9 +99,6 @@ public class WordSearchManager : MonoBehaviour
         return newGrid;
     }
 
-    /// <summary>
-    /// fills the board with the blank char
-    /// </summary>
     char[,] InitBoard()
     {
         char[,] newGrid = new char[BoardSize, BoardSize];
@@ -175,31 +114,17 @@ public class WordSearchManager : MonoBehaviour
         return newGrid;
     }
 
-    /// <summary>
-    /// places a word on the board
-    /// </summary>
-    /// <param name="placeForwards"></param>
-    /// <param name="word"></param>
-    /// <param name="startX"></param>
-    /// <param name="StartY"></param>
-    /// <param name="xSlope"></param>
-    /// <param name="ySlope"></param>
-    /// <param name="newGrid"></param>
     void PlaceWord(bool placeForwards, string word, int startX, int StartY, int xSlope, int ySlope, char[,] newGrid)
     {
-        //forwards
         if (placeForwards)
         {
-            //places the word you want by a slope of x / y
             for (int i = 0; i < word.Length; i++)
             {
                 newGrid[startX + i * xSlope, StartY + i * ySlope] = word[i];
             }
         }
-        //backwards
         else
         {
-            //places the word you want by a slope of x / y, but backwards
             for (int i = 0; i < word.Length; i++)
             {
                 newGrid[startX + i * xSlope, StartY + i * ySlope] = word[word.Length - 1 - i];
@@ -207,21 +132,16 @@ public class WordSearchManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// places the word that are in the list on the board
-    /// </summary>
     char[,] PlaceWordsInTheBoard()
     {
         char[,] newGrid = new char[BoardSize, BoardSize];
 
-        //from the list of words
         foreach (string word in WordsToFind)
         {
             bool canPlace = true;
 
             while (canPlace)
             {
-                //random cords x and y in the board
                 int placeCordsX = Random.Range(0, BoardSize);
                 int placeCordsY = Random.Range(0, BoardSize);
 
@@ -231,26 +151,20 @@ public class WordSearchManager : MonoBehaviour
                 //3 - Neg Diagonal
                 int howToPlace = Random.Range(0, 9); //todo
 
-                //the placing methods are pretty much the same, just build for what they need to do
                 void PlaceHorizontal()
                 {
-                    // check if you can place the word
                     if (word.Length + placeCordsX < BoardSize)
                     {
-                        //check if you want the word to be placed forwards or backwards
                         if (Random.Range(0, 2) == 0)
                         {
-                            //check if the word is valid
                             if (IsValidForHorz(true, word, placeCordsX, placeCordsY, newGrid))
                             {
-                                //place it forwards!
                                 PlaceWord(true, word, placeCordsX, placeCordsY, 1, 0, newGrid);
                                 canPlace = false;
                             }
                         }
                         else
                         {
-                            //place it backwards!
                             if (IsValidForHorz(false, word, placeCordsX, placeCordsY, newGrid))
                             {
                                 PlaceWord(false, word, placeCordsX, placeCordsY, 1, 0, newGrid);
@@ -354,7 +268,6 @@ public class WordSearchManager : MonoBehaviour
     }
 
     #region IsValids
-    //checks if the word can be placed, i think there might be a way to get this under one method but I gave up and this worked so happens
     bool IsValidForHorz(bool checkForward, string word, int startX, int startY, char[,] grid)
     {
         if (checkForward)
@@ -449,25 +362,17 @@ public class WordSearchManager : MonoBehaviour
 
     #endregion
 
-    /// <summary>
-    /// takes any place that is not fill in already and turns it into a random letter
-    /// </summary>
     char[,] FillTheBoardWithRandomChars(char[,] grid, int seed)
     {
-        //this is used to fill the board with random letters after you get the wanted words down
         char[,] newGrid = grid;
-
         Random.InitState(seed);
         
-        //go through board
         for (int col = 0; col < BoardSize; col++)
         {
             for (int row = 0; row < BoardSize; row++)
             {
-                //if there is not a letter at the spot
                 if (!char.IsLetter(newGrid[row, col]))
                 {
-                    //place a random letter
                     newGrid[row, col] = RandomLetter();
                 }
             }
@@ -475,23 +380,13 @@ public class WordSearchManager : MonoBehaviour
         return newGrid;
     }
 
-    /// <summary>
-    /// returns a random lower case letter
-    /// </summary>
-    /// <returns></returns>
     char RandomLetter()
     {
-        //ascii range for upper case letters
-        //https://en.cppreference.com/w/cpp/language/ascii
         return (char)Random.Range(97, 123);
     }
 
-    /// <summary>
-    /// makes the Ui elements that appear on the screen
-    /// </summary>
     public void MakeUiGrid(char[,] grid)
     {
-        //spawns in the letters that make the grid you play on
         for (int col = 0; col < BoardSize; col++)
         {
             for (int row = 0; row < BoardSize; row++)
@@ -501,7 +396,6 @@ public class WordSearchManager : MonoBehaviour
                 letter.GetComponent<WordSearchController>().row = row;
                 letter.GetComponent<WordSearchController>().col = col;
 
-                //checks if you need to update the text on the letter
                 if (grid[row, col] != BlankChar)
                 {
                     letter.GetComponentInChildren<TMP_Text>().text = grid[row, col].ToString();
@@ -514,52 +408,32 @@ public class WordSearchManager : MonoBehaviour
         }
     }
 
-    // houses the spawning of the letter
     GameObject SpawnLetter()
     {
-        //pro tip: learn about grid layout groups. they are super helpful for all ui
         GameObject letter = Instantiate(LetterPrefab, Vector3.zero, Quaternion.identity, WordsGridParent);
-        //make 4x letter width and height size
-        //letter.GetComponentInChildren<TMP_Text>().rectTransform.sizeDelta = letter.GetComponent<RectTransform>().sizeDelta * 4;
-
+        
         letter.GetComponentInChildren<TMP_Text>().rectTransform.sizeDelta = letter.GetComponent<RectTransform>().sizeDelta * 0.9f;
         Debug.Log("SpawnLetter()");
         return letter;
     }
 
-    /// <summary>
-    /// sets the words that are on the side
-    /// </summary>
     void PlaceWhatWordsAreInThePuzzle()
     {
-        //theres are the words that you are looking for displayed on the left side of the board
         foreach (string i in WordsToFind)
         {
             GameObject word = Instantiate(WordPrefab, Vector3.zero, Quaternion.identity, WordsInSearchParent);
-            //word.transform.localScale = Vector3.zero;
 
             word.GetComponentInChildren<TMP_Text>().text = i;
         }
-
-        //lerp theses bad boys in
-        //ALSO GET DOTWEEN FROM UNITY ASSET STORE - ITS THE BEST THING EVER
-        // foreach (Transform i in WordsInSearchParent) 
-        // {
-        //     i.DOScale(Vector3.one, LerpTime).SetEase(Ease.InOutQuint);
-        // }
     }
 
     #endregion
 
     #region Finding a Word
-    /// <summary>
-    /// highlights what the player is selecting
-    /// </summary>
     void FillInSelectedLetters()
     {
         if (SelectedLettersList.Count > 0)
         {
-            //set the color of the selected letter list to the select color
             foreach (GameObject i in SelectedLettersList)
             {
                 i.GetComponentInChildren<Image>().color = new Color(SelectColor.r, SelectColor.g, SelectColor.b);;                
@@ -567,35 +441,22 @@ public class WordSearchManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// clears the highlights and reset letters status
-    /// </summary>
     public void ClearHighlights()
     {
-        //return to defaults
         foreach (GameObject i in SelectedLettersList)
         {
             i.GetComponentInChildren<Image>().color = i.GetComponent<WordSearchController>().DefaultColor;
             i.GetComponent<WordSearchController>().isSelected = false;
         }
 
-        //clear list
         SelectedLettersList.Clear();
     }
 
-    /// <summary>
-    /// adds the letter to the selected string
-    /// </summary>
-    /// <param name="letter"></param>
     public void AddLetterToSelected(GameObject letter)
     {
         SelectedLetters += WordSearchBoard[letter.GetComponent<WordSearchController>().row, letter.GetComponent<WordSearchController>().col].ToString();
     }
 
-    /// <summary>
-    /// if the letters isnt added to list, add it
-    /// </summary>
-    /// <param name="letter"></param>
     public void AddToSelected(GameObject letter)
     {
         if (!SelectedLettersList.Contains(letter)) 
@@ -604,17 +465,11 @@ public class WordSearchManager : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// check if the string made returns a word in the to find array
-    /// </summary>
-    /// <returns></returns>
     public bool CheckIfLettersMakeAWord()
     {
         string reverseSelected = null;
-
         if (SelectedLetters == null) return false;
 
-        //flips the word around
         if (SelectedLetters.Length > 0)
         {
             char[] reverseCharArray = SelectedLetters.ToCharArray();
@@ -622,9 +477,10 @@ public class WordSearchManager : MonoBehaviour
             reverseSelected = new string(reverseCharArray);
         }
         else
+        {
             return false;
+        }
 
-        //is there a word that is forwards or backwards in the list?
         if (WordsToFind.Contains(SelectedLetters) || WordsToFind.Contains(reverseSelected)) 
         {
             return true;
@@ -635,26 +491,15 @@ public class WordSearchManager : MonoBehaviour
     #endregion
 
     #region Check Word Info
-    /// <summary>
-    /// makes the word correct
-    /// </summary>
     void MakesLettersOnBoardCorrect()
-    {
-        //var randomColor = new Color(Random.value, Random.value, Random.value);
-        
-        foreach (GameObject i in CorrectLettersList) //SelectedLettersList
+    {        
+        foreach (GameObject i in CorrectLettersList)
         {
-            //set random color if correct
             i.GetComponentInChildren<Image>().color = new Color(Correct.r, Correct.g, Correct.b);
-            //i.GetComponentInChildren<Image>().color = randomColor;
-            //i.GetComponentInChildren<Image>().color = Correct;
             i.GetComponent<WordSearchController>().isSelected = false;
         }
     }
 
-    /// <summary>
-    /// makes a correct word to find the correct color on a correct find
-    /// </summary>
     void MakesListWordCorrect()
     {
         string reverseSelected = null;
@@ -669,42 +514,25 @@ public class WordSearchManager : MonoBehaviour
                 i.GetChild(0).GetComponent<TMP_Text>().color = new Color(CorrectWord.r, CorrectWord.g, CorrectWord.b);
                 i.GetChild(1).GetComponent<Image>().gameObject.SetActive(true);
                 Debug.Log("Should display slash");
-                //i.GetComponentInChildren<TMP_Text>().color = new Color(Correct.r, Correct.g, Correct.b);
             }
     }
 
-    /// <summary>
-    /// returns how many words are left to find
-    /// </summary>
-    /// <returns></returns>
     int HowManyWordsAreLeft()
     {
         int total = 0;
         foreach (Transform i in WordsInSearchParent)
-            if (i.GetComponentInChildren<TMP_Text>().color != CorrectWord) //Correct)
+            if (i.GetComponentInChildren<TMP_Text>().color != CorrectWord)
                 total++;
 
         return total;
     }
 
-    /// <summary>
-    /// what to do whne a word search is complete
-    /// </summary>
     void OnPuzzleComplete()
     {
-        // game is over
         Debug.Log("Game is Over!!");
-        //GameIsOver();
         Invoke("GameIsOver", 2.0f);
-
-        //OnWordSearchComplete.transform.DOScale(Vector3.one, LerpTime);
-        //CompleteTimeText.text = "Congrats! You got all the words in " + TimeToComplete.ToString("F1") + " seconds!";
     }
 
-    /// <summary>
-    /// what to do when the selected letters IS a word
-    /// 
-    /// </summary>
     void IsAWord()
     {
         foreach (GameObject i in SelectedLettersList)
@@ -716,7 +544,6 @@ public class WordSearchManager : MonoBehaviour
         MakesLettersOnBoardCorrect();
 
         WordsLeft = HowManyWordsAreLeft();
-        //play correct sound
         PlayAudio(true);
         totalScore ++;
 
@@ -730,17 +557,13 @@ public class WordSearchManager : MonoBehaviour
         SelectedLetters = null;
     }
 
-    /// <summary>
-    /// what to do when the selected letters is NOT a word
-    /// </summary>
     IEnumerator NotAWord()
     {
         CanSelect = false;
 
         foreach (GameObject i in SelectedLettersList)
         {
-            //play wrong sound
-            PlayAudio(false); //todo
+            PlayAudio(false);
             i.GetComponentInChildren<Image>().color = new Color(Wrong.r, Wrong.g, Wrong.b);;
         }
 
@@ -752,9 +575,6 @@ public class WordSearchManager : MonoBehaviour
         SelectedLetters = null;
     }
 
-    /// <summary>
-    /// the act of getting the words on the board, mouse input
-    /// </summary>
     void SelectLettersOnBoard()
     {
         if (Input.GetMouseButtonDown(0))
@@ -774,12 +594,10 @@ public class WordSearchManager : MonoBehaviour
     void OpenPauseMenu()
     {
         isPlaying = false;
-        //OnWordSearchPause.transform.DOScale(Vector3.one, LerpTime / 2);
     }
 
     void ClosePauseMenu()
     {
-        //OnWordSearchPause.transform.DOScale(Vector3.zero, LerpTime / 3);
         isPlaying = true;
     }
 
@@ -790,16 +608,6 @@ public class WordSearchManager : MonoBehaviour
         else
             ClosePauseMenu();
     }
-
-    // public void LoadPuzzle()
-    // {
-    //     StartCoroutine(FindObjectOfType<TransitionController>().MoveScenes("WordSearch", "Loading Word Search...", true));
-    // }
-
-    // public void ToMainMenu()
-    // {
-    //     StartCoroutine(FindObjectOfType<TransitionController>().MoveScenes("MainMenu", "Loading Main Menu...", false));
-    // }
     #endregion
 
     private void FixedUpdate()
@@ -810,7 +618,6 @@ public class WordSearchManager : MonoBehaviour
 
             string secs = TimeToComplete % 60 <= 10 ? "0" + (TimeToComplete % 60).ToString("F0") : (TimeToComplete % 60).ToString("F0");
             string mins = (TimeToComplete / 60).ToString("F0");
-            //InGameTimeText.text = mins + " : " + secs;
         }
 
         if (WordsLeft == 0)
@@ -846,8 +653,7 @@ public class WordSearchManager : MonoBehaviour
             if (GameProgress.instance.timeLeft <= 0)
             {
                 GameProgress.instance.StopTimer();
-                GameIsOver();
-                //remarks.text = "Time's up!";            
+                GameIsOver();          
             }
         }
     }

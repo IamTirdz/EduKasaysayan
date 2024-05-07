@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,7 +6,7 @@ using UnityEngine.UI;
 public class LessonPickerManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text selectedLesson;
-    [SerializeField] private UnityEngine.UI.Image lessonImage;
+    [SerializeField] private Image lessonImage;
     [SerializeField] private Button viewMoreButton;
     [SerializeField] private List<bool> showIntroduction;
     [SerializeField] private GameObject introductionGO;
@@ -41,7 +40,6 @@ public class LessonPickerManager : MonoBehaviour
             _ => "Katangian Pisikal ng Daigdig"
         };
 
-        //var lessonTitle = PlayerPrefs.GetString("SelectedLesson", "Wika at Katangian");
         recentTitle = selectedLesson.text;
 
         if (showIntroduction[lessonIndex])
@@ -57,7 +55,6 @@ public class LessonPickerManager : MonoBehaviour
             Sprite sprite = Resources.Load<Sprite>($"Sprites/{spriteDirectory}/{spritePath}");
             if (sprite != null)
             {
-                // Set the sprite to the Image component
                 lessonImage.sprite = sprite;
                 viewMoreButton.enabled = true;
             }
