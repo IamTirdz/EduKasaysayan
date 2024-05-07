@@ -23,7 +23,7 @@ public class ActivityManager : MonoBehaviour
             return;
         }
 
-        var gameTitle = PlayerPrefs.GetString("SelectedActivityGame", "know_your_label!");
+        var gameTitle = PlayerPrefs.GetString("ActivityGameSelected", "know_your_label!");
         selectedGame.text = gameTitle;
 
         playButton.enabled = false;
@@ -40,7 +40,7 @@ public class ActivityManager : MonoBehaviour
         else
         {
             playButton.enabled = false;
-            Debug.LogError("Sprite not found at path: Assets/Resources/" + spritePath);
+            Debug.LogError("Sprite not found at path: Assets/Resources/Sprites/" + spritePath);
             return;
         }
     }

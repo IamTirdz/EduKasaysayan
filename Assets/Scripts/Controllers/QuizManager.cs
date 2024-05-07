@@ -5,8 +5,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
-using TMPro;
-using System;
 
 public class QuizManager : MonoBehaviour
 {
@@ -45,7 +43,8 @@ public class QuizManager : MonoBehaviour
         lastWordIndex = new List<int>();
         categoryIndex = 0;
 
-        quizIndex = PlayerPrefs.GetInt("QuizGameIndex", 0);
+        if (PlayerPrefs.HasKey("QuizGameIndex"))
+            quizIndex = PlayerPrefs.GetInt("QuizGameIndex", 0);
 
         ResetGame();
         GenerateQuestion();
@@ -79,7 +78,7 @@ public class QuizManager : MonoBehaviour
     {
         ResetButtonUI();
 
-        if (quizCounter < quizScript[quizIndex].questions.Count)
+        if (quizCounter <= quizScript[quizIndex].questions.Count)
         {
             questionNumber = quizCounter + 1;
 

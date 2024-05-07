@@ -76,3 +76,4 @@ MonoBehaviour:
         ang 30% nito ay kalupaan.
       lessonImage: {fileID: 0}
       lessonType: 0
+  nextScene: PisikalNaDaigdigMenu

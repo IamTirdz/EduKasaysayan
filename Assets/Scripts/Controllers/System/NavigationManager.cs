@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,9 +10,7 @@ public class NavigationManager : MonoBehaviour
 
     void Start()
     {
-        // Store the initial scene as the previous scene
         previousScene = SceneManager.GetActiveScene().name;
-
         //SoundManager.instance.PlaySound(false);
     }
 
@@ -45,19 +40,19 @@ public class NavigationManager : MonoBehaviour
     #region GAME MUSIC
     public void ResetSoundAndNavigate(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName);
         AudioManager.instance.PlayMusic("MusicTheme");
+        SceneManager.LoadSceneAsync(sceneName);        
     }
 
-    public void ToggleMusicAndNavigate(string sceneName)
+    public void ToggleAndLoadMusic(string sceneName)
     {
-        SceneManager.LoadSceneAsync(sceneName);
         AudioManager.instance.ToggleMusic();
+        SceneManager.LoadSceneAsync(sceneName);        
     }
     #endregion
 
     #region QUIZ GAME
-    public void LoadRandomQuizScene()
+    public void LoadQuizRandom()
     {
         int index = Random.Range(0, 2);
         PlayerPrefs.SetInt("QuizGameIndex", index);
@@ -71,65 +66,39 @@ public class NavigationManager : MonoBehaviour
     }
     #endregion
 
-
-    public void LoadLessonModule()
-    {
-        SceneManager.LoadSceneAsync("LessonViewer");
-        //string buttonName = EventSystem.current.currentSelectedGameObject.name;
-        string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-
-        PlayerPrefs.SetString("SelectedLesson", buttonText);     
-    }
-
-    public void LoadLessonModule(string lesson)
-    {
-        SceneManager.LoadSceneAsync("LessonViewer");
-        PlayerPrefs.SetString("SelectedLesson", lesson);     
-    }
-
-    public void LoadLessonPageModule()
-    {
-        var selectedLesson = PlayerPrefs.GetString("SelectedLesson", "lesson");
-        var moduleName = selectedLesson.ToLower().Replace(" ", "_");
-        SceneManager.LoadSceneAsync($"LessonPageView_Module-{moduleName}");        
-    }
-
-    public void LoadDaigdigModule()
+    #region ACTIVITY GAME
+    public void LoadActivityPicker()
     {
         string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-        var moduleName = buttonText.ToLower().Replace(" ", "_");
-        SceneManager.LoadSceneAsync($"LessonPageView_Module-{moduleName}");        
+        PlayerPrefs.SetString("ActivityGameSelected", buttonText);
+        SceneManager.LoadSceneAsync("ActivityPicker");
     }
 
-    public void LoadDaigdigPageModule()
+    public void LoadActivityScene()
     {
-        string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-        var moduleName = buttonText.ToLower().Replace(" ", "_").Replace("?", string.Empty);
-        SceneManager.LoadSceneAsync($"DaigdigPageView_Module-{moduleName}");        
+        var selectedGame = PlayerPrefs.GetString("ActivityGameSelected", "KnowYourLabel");
+        var gameModule = selectedGame.Replace(" ", string.Empty).Replace("!", string.Empty) + "Game";
+        SceneManager.LoadSceneAsync(gameModule);
     }
+    #endregion
 
-    public void LoadWikaPageModule()
+    #region LESSON PAGE
+    public void LoadLessonScene(int index)
     {
-        string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-        PlayerPrefs.SetString("SelectedWikaLesson", buttonText); 
-
-        var moduleName = buttonText.ToLower().Replace(" ", "_");
-        SceneManager.LoadSceneAsync($"WikaPageView_Module-{moduleName}");        
+        PlayerPrefs.SetInt("SelectedLessonIndex", index);
+        SceneManager.LoadSceneAsync("LessonViewer");        
     }
 
-    public void LoadActivityModule()
+    public void LoadWikaLessonScene(int index)
     {
-        SceneManager.LoadSceneAsync("ActivityGame");
-        string buttonName = EventSystem.current.currentSelectedGameObject.name;
-        string buttonText = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-
-        PlayerPrefs.SetString("SelectedActivityGame", buttonText);       
+        PlayerPrefs.SetInt("SelectedLessonIndex", index);
+        SceneManager.LoadSceneAsync("WikaKatangianLessonViewer");
     }
 
-    public void LoadActivityGameModule()
+    public void LoadDaigdigLessonScene(int index)
     {
-        var selectedGame = PlayerPrefs.GetString("SelectedActivityGame", "KnowYourLabel");
-        var gameModule = selectedGame.Replace(" ", string.Empty).Replace("!", string.Empty);
-        SceneManager.LoadSceneAsync(gameModule);   
+        PlayerPrefs.SetInt("SelectedLessonIndex", index);
+        SceneManager.LoadSceneAsync("PisikalNaDaigdigLessonViewer");
     }
+    #endregion
 }
